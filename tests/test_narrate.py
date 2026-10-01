@@ -61,3 +61,19 @@ def test_manifest(ep, tmp_path):
     assert data["moves"][-1]["san"] == "Qg2#"
     assert json.loads((tmp_path / "index.json").read_text()) == {"langs": ["es"]}
     assert (tmp_path / "index.html").exists() and (tmp_path / "viewer.js").exists()
+
+
+class RelativePlyLLM(FakeLLM):
+    """Numbers segments 1..n instead of absolute plies."""
+
+    def complete_json(self, system, user, schema):
+        data = super().complete_json(system, user, schema)
+        for i, seg in enumerate(data["segments"], 1):
+            seg["ply"] = i
+        return data
+
+
+def test_relative_ply_numbers_are_remapped(ep, tmp_path):
+    script = narrate.make_script(ep, RelativePlyLLM(), "es", tmp_path, chunk_size=25)
+    moves = [s for s in script["segments"] if s["kind"] == "move"]
+    assert moves[80]["text"] == "jugada 81"

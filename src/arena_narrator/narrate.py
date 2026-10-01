@@ -103,7 +103,13 @@ def _move_block(mv: Move, lang: str) -> str:
     if "eval_white_cp" in f:
         facts.append(f"engine eval (White POV, centipawns): {f['eval_white_cp']}")
     if f.get("engine_verdict"):
-        facts.append(f"engine verdict: {f['engine_verdict']}")
+        facts.append(
+            f"engine verdict: {f['engine_verdict']} (winning chances dropped by "
+            f"{f.get('win_chance_drop_for_mover')})"
+        )
+    if f.get("engine_best_move"):
+        best = f["engine_best_move"]
+        facts.append(f"engine's best move instead: {best} (spoken: {san_to_words(best, lang)})")
     t = f"{mv.time_taken:.0f}s" if mv.time_taken else "?"
     dots = "." if mv.side == "white" else "..."
     return (
@@ -210,6 +216,21 @@ def _template_bookends(episode: Episode, lang: str) -> tuple[str, str]:
     return intro, t["outro"].format(result=result, winner=verdict)
 
 
+def _coverage(data: dict, chunk: list[Move]) -> float:
+    wanted = {mv.ply for mv in chunk}
+    got = {seg.get("ply") for seg in data.get("segments", []) if (seg.get("text") or "").strip()}
+    return len(wanted & got) / len(wanted)
+
+
+def _repair(data: dict, chunk: list[Move]) -> dict:
+    """If the model numbered segments wrongly (e.g. 1..n) but returned one per move, remap."""
+    segs = [s for s in data.get("segments", []) if (s.get("text") or "").strip()]
+    if _coverage(data, chunk) < 1 and len(segs) == len(chunk):
+        data = {**data, "segments": [{"ply": mv.ply, "text": s["text"]}
+                                     for mv, s in zip(chunk, segs, strict=True)]}
+    return data
+
+
 def make_script(episode: Episode, llm: LLM, lang: str, out_dir: Path, *,
                 chunk_size: int = 30, regen: bool = False) -> dict:
     """Return the script dict, cached at out_dir/script.<lang>.json."""
@@ -245,7 +266,15 @@ def make_script(episode: Episode, llm: LLM, lang: str, out_dir: Path, *,
         else:
             print(f"  narrating plies {key} with {llm.name}:{llm.model} …", file=sys.stderr)
             prompt = build_prompt(episode, chunk, lang, summary, first, last)
-            data = llm.complete_json(system, prompt, SCHEMA)
+            if hasattr(llm, "max_tokens"):
+                # ~250 output tokens per move plus room for intro/outro/summary
+                llm.max_tokens = min(16000, 1500 + 250 * len(chunk))
+            data = _repair(llm.complete_json(system, prompt, SCHEMA), chunk)
+            if _coverage(data, chunk) < 0.8:
+                print(f"  plies {key}: incomplete narration; retrying once …", file=sys.stderr)
+                retry = _repair(llm.complete_json(system, prompt, SCHEMA), chunk)
+                if _coverage(retry, chunk) > _coverage(data, chunk):
+                    data = retry
             partial[key] = data
             partial_path.write_text(
                 json.dumps({"_provider": llm.name, **partial}, ensure_ascii=False, indent=1),

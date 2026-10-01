@@ -5,6 +5,7 @@ Everything here comes from python-chess (and optionally a UCI engine), never fro
 
 from __future__ import annotations
 
+import math
 from pathlib import Path
 
 import chess
@@ -53,9 +54,9 @@ def annotate(episode: Episode, engine_path: str | Path | None = None, depth: int
     if engine_path:
         engine = chess.engine.SimpleEngine.popen_uci(str(engine_path))
     try:
-        prev_eval = None
+        prev_eval, prev_best = None, None
         if engine:
-            prev_eval = _eval(engine, chess.Board(episode.moves[0].fen_before), depth)
+            prev_eval, prev_best = _eval(engine, chess.Board(episode.moves[0].fen_before), depth)
         for mv in episode.moves:
             before = chess.Board(mv.fen_before)
             move = chess.Move.from_uci(mv.uci)
@@ -77,26 +78,48 @@ def annotate(episode: Episode, engine_path: str | Path | None = None, depth: int
                 legal_replies=after.legal_moves.count(),
             )
             if engine:
-                ev = _eval(engine, after, depth)
+                ev, best = _eval(engine, after, depth)
                 facts["eval_white_cp"] = ev
-                if prev_eval is not None and ev is not None:
-                    swing = (ev - prev_eval) * (1 if mover == chess.WHITE else -1)
-                    facts["eval_change_for_mover_cp"] = swing
-                    if swing <= -300:
-                        facts["engine_verdict"] = "blunder"
-                    elif swing <= -120:
-                        facts["engine_verdict"] = "mistake"
-                prev_eval = ev
+                if prev_eval is not None:
+                    sign = 1 if mover == chess.WHITE else -1
+                    drop = win_chances(prev_eval * sign) - win_chances(ev * sign)
+                    facts["win_chance_drop_for_mover"] = round(drop, 2)
+                    verdict = classify(drop)
+                    if verdict:
+                        facts["engine_verdict"] = verdict
+                        if prev_best and prev_best != mv.san:
+                            facts["engine_best_move"] = prev_best
+                prev_eval, prev_best = ev, best
             mv.facts = facts
     finally:
         if engine:
             engine.quit()
 
 
-def _eval(engine, board: chess.Board, depth: int) -> int | None:
+def win_chances(cp: int) -> float:
+    """Lichess' model: centipawns (mover's POV) → winning chances in [-1, 1]."""
+    cp = max(-1000, min(1000, cp))
+    return 2 / (1 + math.exp(-0.00368208 * cp)) - 1
+
+
+def classify(drop: float) -> str | None:
+    """Lichess thresholds on the drop of winning chances."""
+    if drop >= 0.3:
+        return "blunder"
+    if drop >= 0.2:
+        return "mistake"
+    if drop >= 0.1:
+        return "inaccuracy"
+    return None
+
+
+def _eval(engine, board: chess.Board, depth: int) -> tuple[int, str | None]:
+    """White-POV centipawns and the engine's best move (SAN) for the side to move."""
     if board.is_game_over():
         if board.is_checkmate():
-            return -10000 if board.turn == chess.WHITE else 10000
-        return 0
+            return (-10000 if board.turn == chess.WHITE else 10000), None
+        return 0, None
     info = engine.analyse(board, chess.engine.Limit(depth=depth))
-    return info["score"].white().score(mate_score=10000)
+    pv = info.get("pv") or []
+    best = board.san(pv[0]) if pv else None
+    return info["score"].white().score(mate_score=10000), best

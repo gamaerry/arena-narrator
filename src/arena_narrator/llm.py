@@ -109,6 +109,8 @@ class OpenRouterLLM:
         if not self.key:
             raise LLMError("Set OPENROUTER_API_KEY to use --provider openrouter")
         self.model = model or DEFAULT_MODELS[self.name]
+        # Callers may lower this per request; OpenRouter reserves credit for the full amount.
+        self.max_tokens = 16000
 
     def complete_json(self, system: str, user: str, schema: dict) -> dict:
         # Free endpoints sometimes cut the response mid-stream; retry a couple of times.
@@ -126,7 +128,7 @@ class OpenRouterLLM:
 
         body = {
             "model": self.model,
-            "max_tokens": 16000,
+            "max_tokens": self.max_tokens,
             "messages": [
                 {"role": "system", "content": system},
                 {"role": "user", "content": user},

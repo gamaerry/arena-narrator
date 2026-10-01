@@ -1318,716 +1318,716 @@
   {
    "kind": "intro",
    "ply": 0,
-   "text": "Bienvenidos a un nuevo duelo en la Arena de Kaggle. Hoy se enfrentan dos modelos de lenguaje que juegan sin ningún motor de análisis: antes de cada jugada escribieron su razonamiento, y ese razonamiento es el corazón de esta transmisión. Con las piezas blancas juega gpt seis Astra; con las negras, Gemini tres punto siete Flash. Vamos a escuchar qué pensaron, qué calcularon y en qué se equivocaron, jugada por jugada.",
-   "audio": "audio/es/edge/000-0530f6a929.mp3",
-   "duration": 27.768
+   "text": "Bienvenidos a la Arena de Kaggle. Hoy se sientan frente al tablero dos modelos de lenguaje: gpt-6-astra, que lleva las piezas blancas, y gemini-3.7-flash, con las negras. Ninguno usa motor de análisis: antes de cada jugada, cada uno escribe lo que piensa, y nosotros vamos a escuchar ese razonamiento jugada por jugada. Habrá planes, líneas calculadas, dudas y algún error que solo se verá cuando llegue la respuesta del rival. Comenzamos.",
+   "audio": "audio/es/edge/000-80326b9a18.mp3",
+   "duration": 32.544
   },
   {
    "kind": "move",
    "ply": 1,
-   "text": "Astra abre con peón e cuatro después de ocho segundos: quiere el centro sin discusión y abrir líneas para el alfil y la dama.",
-   "audio": "audio/es/edge/001-664c886479.mp3",
-   "duration": 7.824
+   "text": "Astra abre con peón e cuatro. Pensó ocho segundos: el centro está sin disputar, y el avance reclama espacio y abre líneas para el alfil y la dama.",
+   "audio": "audio/es/edge/001-add3eaf33a.mp3",
+   "duration": 10.728
   },
   {
    "kind": "move",
    "ply": 2,
-   "text": "Gemini responde con peón ce cinco, la Siciliana, y explica que es la opción más dinámica y la que le da mejores chances de ganar.",
-   "audio": "audio/es/edge/002-2eb6df2be8.mp3",
-   "duration": 9.168
+   "text": "Gemini responde peón ce cinco, la Siciliana. Dice que es la opción más dinámica de la élite, porque le niega a las blancas un centro cómodo y crea una estructura asimétrica.",
+   "audio": "audio/es/edge/002-b792841ad7.mp3",
+   "duration": 12.24
   },
   {
    "kind": "move",
    "ply": 3,
-   "text": "Caballo a efe tres de Astra, desarrollo natural y preparación del avance de peón de cuatro.",
-   "audio": "audio/es/edge/003-26daa4bd8d.mp3",
-   "duration": 6.144
-  },
-  {
-   "kind": "move",
-   "ply": 4,
-   "text": "Gemini contesta con peón de seis, la continuación más clásica según su criterio, pensando ya en estructuras tipo Najdorf o Dragón.",
-   "audio": "audio/es/edge/004-2864915d5c.mp3",
-   "duration": 8.976
-  },
-  {
-   "kind": "move",
-   "ply": 5,
-   "text": "Astra avanza peón de cuatro y reta directamente al peón de ce cinco.",
-   "audio": "audio/es/edge/005-e90cf1719e.mp3",
-   "duration": 4.896
-  },
-  {
-   "kind": "move",
-   "ply": 6,
-   "text": "Gemini captura: peón ce por de cuatro. Cambia un peón de flanco por el peón central blanco y queda una unidad arriba en el conteo de peones.",
-   "audio": "audio/es/edge/006-bb1d5ae6ba.mp3",
-   "duration": 10.008
-  },
-  {
-   "kind": "move",
-   "ply": 7,
-   "text": "Astra recupera con caballo por de cuatro y empareja el material otra vez.",
-   "audio": "audio/es/edge/007-83b3b0df22.mp3",
-   "duration": 4.92
-  },
-  {
-   "kind": "move",
-   "ply": 8,
-   "text": "Gemini saca caballo a efe seis y ataca el peón de e cuatro, que está indefenso.",
-   "audio": "audio/es/edge/008-ecfcc9bef5.mp3",
-   "duration": 5.808
-  },
-  {
-   "kind": "move",
-   "ply": 9,
-   "text": "Caballo a ce tres de Astra, defendiendo el centro. Esta vez el modelo no escribió ningún razonamiento: solamente la jugada.",
-   "audio": "audio/es/edge/009-c7472b8c61.mp3",
-   "duration": 9.12
-  },
-  {
-   "kind": "move",
-   "ply": 10,
-   "text": "Gemini juega peón a seis y entra en el Najdorf, buscando contrajuego en el flanco de dama.",
-   "audio": "audio/es/edge/010-e84f971bf1.mp3",
-   "duration": 6.096
-  },
-  {
-   "kind": "move",
-   "ply": 11,
-   "text": "Astra responde con alfil a ge cinco, nueve segundos de cálculo: presión sobre el caballo de efe seis y la idea de enrocar largo.",
-   "audio": "audio/es/edge/011-144ac90e89.mp3",
-   "duration": 8.352
-  },
-  {
-   "kind": "move",
-   "ply": 12,
-   "text": "Peón e seis de Gemini, para frenar al alfil y preparar el desarrollo.",
-   "audio": "audio/es/edge/012-7398306d84.mp3",
-   "duration": 5.088
-  },
-  {
-   "kind": "move",
-   "ply": 13,
-   "text": "Astra empuja peón efe cuatro, gana espacio en el flanco de rey y amenaza con avanzar a e cinco.",
-   "audio": "audio/es/edge/013-b6ae073969.mp3",
-   "duration": 6.528
-  },
-  {
-   "kind": "move",
-   "ply": 14,
-   "text": "Gemini lanza dama a be seis, el famoso peón envenenado. El modelo lo llama la prueba más ambiciosa y apunta directo al peón de be dos.",
-   "audio": "audio/es/edge/014-287259a968.mp3",
-   "duration": 9.792
-  },
-  {
-   "kind": "move",
-   "ply": 15,
-   "text": "Astra contesta con dama a de dos, trece segundos de reflexión: ofrece el peón de be dos a cambio de actividad y de ganar tiempos contra la dama negra.",
-   "audio": "audio/es/edge/015-01362fda7d.mp3",
-   "duration": 9.408
-  },
-  {
-   "kind": "move",
-   "ply": 16,
-   "text": "Y Gemini acepta la oferta: dama por be dos. Las negras quedan con un peón extra y atacan la torre de a uno; veremos si el ataque blanco compensa.",
-   "audio": "audio/es/edge/016-02d5abbe27.mp3",
-   "duration": 10.608
-  },
-  {
-   "kind": "move",
-   "ply": 17,
-   "text": "Torre a be uno de Astra, que golpea a la dama negra y gana un tiempo, exactamente como el modelo había anticipado.",
-   "audio": "audio/es/edge/017-e8f5a7668f.mp3",
-   "duration": 7.68
-  },
-  {
-   "kind": "move",
-   "ply": 18,
-   "text": "Gemini retira la dama a a tres, la única casilla segura según su propio análisis, y conserva la presión sobre el flanco de dama.",
-   "audio": "audio/es/edge/018-d9e5cdad6a.mp3",
-   "duration": 8.736
-  },
-  {
-   "kind": "move",
-   "ply": 19,
-   "text": "Astra avanza peón e cinco, doce segundos: quiere atacar al caballo de efe seis mientras el rey negro sigue sin enrocar.",
-   "audio": "audio/es/edge/019-2ffdc857c4.mp3",
-   "duration": 8.112
-  },
-  {
-   "kind": "move",
-   "ply": 20,
-   "text": "Gemini toma: peón de por e cinco. Ahora las negras están dos peones arriba.",
-   "audio": "audio/es/edge/020-6868f6f2e5.mp3",
-   "duration": 6.72
-  },
-  {
-   "kind": "move",
-   "ply": 21,
-   "text": "Astra recaptura con peón efe por e cinco, dieciséis segundos, y de paso vuelve a atacar el caballo negro. El material queda en un solo peón de diferencia.",
-   "audio": "audio/es/edge/021-edb32a476d.mp3",
-   "duration": 10.608
-  },
-  {
-   "kind": "move",
-   "ply": 22,
-   "text": "Gemini repliega caballo efe a de siete, la retirada estándar, defendiendo el peón de e cinco y abriendo paso al alfil de ce ocho.",
-   "audio": "audio/es/edge/022-60127b62b4.mp3",
-   "duration": 8.832
-  },
-  {
-   "kind": "move",
-   "ply": 23,
-   "text": "Astra centraliza con caballo a e cuatro, veintiún segundos de cálculo. Aquí hay un detalle importante: el modelo afirma que las blancas están dos peones abajo, cuando en realidad solo están un peón abajo. Su plan de mantener la iniciativa sigue siendo razonable, pero el diagnóstico está inflado.",
-   "audio": "audio/es/edge/023-2685dc9f58.mp3",
-   "duration": 19.632
-  },
-  {
-   "kind": "move",
-   "ply": 24,
-   "text": "Gemini juega peón hache seis, seis segundos, y pone en cuestión al alfil de ge cinco. El modelo consideró tomar otro peón en a dos, pero prefirió esta jugada por principio.",
-   "audio": "audio/es/edge/024-5377092712.mp3",
-   "duration": 12.048
-  },
-  {
-   "kind": "move",
-   "ply": 25,
-   "text": "Astra piensa cuarenta y cinco segundos, la reflexión más larga de la partida hasta aquí, y decide alfil a hache cuatro. No quiere entregar ese alfil y prefiere conservar la presión central. Si las negras toman en a dos, tiene lista la torre a de uno para seguir con amenazas.",
-   "audio": "audio/es/edge/025-4bb301396d.mp3",
-   "duration": 18.192
-  },
-  {
-   "kind": "move",
-   "ply": 26,
-   "text": "Gemini sigue comiendo peones: dama por a dos. Es la línea del peón envenenado, dice el modelo, y con esta captura obliga a la torre blanca a moverse y pone a las negras dos peones arriba.",
-   "audio": "audio/es/edge/026-82b617857c.mp3",
-   "duration": 13.176
-  },
-  {
-   "kind": "move",
-   "ply": 27,
-   "text": "Astra contesta con torre a de uno, pensado durante veinticinco segundos: salva la torre, ocupa la columna central y mantiene los caballos activos.",
-   "audio": "audio/es/edge/027-cddba2aafc.mp3",
-   "duration": 9.864
-  },
-  {
-   "kind": "move",
-   "ply": 28,
-   "text": "Dama a de cinco, responde Gemini en cuatro segundos: centraliza la dama, ataca al caballo de e cuatro y presiona el peón de e cinco.",
-   "audio": "audio/es/edge/028-02d21440b9.mp3",
-   "duration": 9.192
-  },
-  {
-   "kind": "move",
-   "ply": 29,
-   "text": "Dama a e tres. Astra refuerza su caballo y prepara el enroque corto, según su propio plan.",
-   "audio": "audio/es/edge/029-5be6cdabf7.mp3",
-   "duration": 7.344
-  },
-  {
-   "kind": "move",
-   "ply": 30,
-   "text": "Dama por e cinco, y Gemini se queda con otro peón: ya son tres de ventaja. La dama negra se planta en el centro, justo donde el alfil blanco de ge tres la va a mirar con malos ojos.",
-   "audio": "audio/es/edge/030-c07d4bc694.mp3",
-   "duration": 12.816
-  },
-  {
-   "kind": "move",
-   "ply": 31,
-   "text": "Alfil a e dos, cuarenta y un segundos de reflexión. Astra reconoce que está tres peones abajo y apuesta por el desarrollo rápido contra el rey negro todavía sin enrocar.",
-   "audio": "audio/es/edge/031-88df624bf6.mp3",
-   "duration": 11.592
-  },
-  {
-   "kind": "move",
-   "ply": 32,
-   "text": "Alfil a ce cinco: Gemini desarrolla, clava el caballo de de cuatro contra la dama blanca y anuncia que piensa enrocar enseguida.",
-   "audio": "audio/es/edge/032-0eb5dcfaba.mp3",
-   "duration": 8.544
-  },
-  {
-   "kind": "move",
-   "ply": 33,
-   "text": "Alfil a ge tres, setenta y dos segundos. Astra ataca la dama negra de e cinco y gana tiempo; ya tenía calculado que si las negras capturan en de cuatro, la torre recaptura y la presión sigue.",
-   "audio": "audio/es/edge/033-2adc240be9.mp3",
-   "duration": 13.08
-  },
-  {
-   "kind": "move",
-   "ply": 34,
-   "text": "Alfil por de cuatro. Gemini elimina el caballo blanco sabiendo que su dama de e cinco está atacada por el alfil de ge tres, y confía en escapar con dama a a cinco, jaque, después de la recaptura. La balanza material se dispara a favor de las negras, pero la dama queda por ahora bajo fuego.",
-   "audio": "audio/es/edge/034-d95846d2fd.mp3",
-   "duration": 19.296
-  },
-  {
-   "kind": "move",
-   "ply": 35,
-   "text": "Torre por de cuatro, sesenta y siete segundos. Astra recaptura el alfil y mantiene la dama negra amenazada; en su análisis descarta que las negras puedan tomar esa torre sin perder la dama.",
-   "audio": "audio/es/edge/035-28f8b44546.mp3",
-   "duration": 12.48
-  },
-  {
-   "kind": "move",
-   "ply": 36,
-   "text": "Dama a a cinco, jaque. Gemini sale del doble ataque y de paso da jaque al rey blanco.",
-   "audio": "audio/es/edge/036-04fa491c97.mp3",
-   "duration": 7.128
-  },
-  {
-   "kind": "move",
-   "ply": 37,
-   "text": "Peón ce tres: Astra bloquea el jaque, sostiene la torre de de cuatro y conserva el derecho a enrocar.",
-   "audio": "audio/es/edge/037-d577eb89fe.mp3",
-   "duration": 6.888
-  },
-  {
-   "kind": "move",
-   "ply": 38,
-   "text": "Enroque corto. Por fin el rey negro sale del centro, tal como Gemini venía anunciando.",
-   "audio": "audio/es/edge/038-d69a9f8b82.mp3",
-   "duration": 7.128
-  },
-  {
-   "kind": "move",
-   "ply": 39,
-   "text": "Enroque corto también para Astra, después de ochenta segundos; el rey blanco abandona la diagonal de la dama negra y la torre de hache uno entra en juego.",
-   "audio": "audio/es/edge/039-f68c0ef97a.mp3",
-   "duration": 9.72
-  },
-  {
-   "kind": "move",
-   "ply": 40,
-   "text": "Caballo a ce seis. Gemini desarrolla su caballo de dama y ataca la torre blanca de de cuatro para ganar un tiempo.",
-   "audio": "audio/es/edge/040-17852007c1.mp3",
-   "duration": 8.376
-  },
-  {
-   "kind": "move",
-   "ply": 41,
-   "text": "Caballo a efe seis, jaque. Astra se toma cuatro minutos y medio, la reflexión más larga de la partida, para entregar el caballo en efe seis. Es un sacrificio de pieza: ese caballo queda atacado por el caballo de de siete y por el peón de ge siete, y las negras lo van a tomar sin ceremonia. El modelo buscaba torre y alfil contra el rey, con líneas de torre a ge cuatro dando jaque.",
-   "audio": "audio/es/edge/041-e99388a42e.mp3",
-   "duration": 25.728
-  },
-  {
-   "kind": "move",
-   "ply": 42,
-   "text": "Caballo por efe seis. Gemini acepta el regalo; había descartado las otras dos respuestas al jaque y confiaba en aguantar el ataque. La ventaja material negra crece otra vez.",
-   "audio": "audio/es/edge/042-b20d4490ea.mp3",
-   "duration": 12.936
-  },
-  {
-   "kind": "move",
-   "ply": 43,
-   "text": "Torre por efe seis. Astra recaptura el caballo y recupera parte del material, pero su pieza más activa queda mirando el peón de hache seis, la puerta del rey negro.",
-   "audio": "audio/es/edge/043-53b611993f.mp3",
-   "duration": 11.304
-  },
-  {
-   "kind": "move",
-   "ply": 44,
-   "text": "Caballo por de cuatro. Gemini no se defiende: captura la segunda torre blanca y su ventaja material se vuelve abrumadora. Eso sí, el caballo aterriza en de cuatro donde el peón de ce tres y la dama de e tres lo pueden capturar, y ese detalle va a importar.",
-   "audio": "audio/es/edge/044-62c5ab0436.mp3",
-   "duration": 17.328
-  },
-  {
-   "kind": "move",
-   "ply": 45,
-   "text": "Alfil a de tres, después de tres minutos de duda. Astra renuncia a capturar el caballo negro de de cuatro con el peón de ce tres y sigue buscando el ataque por la diagonal hacia hache siete. El caballo colgado sobrevive y las blancas siguen muy por debajo en material.",
-   "audio": "audio/es/edge/045-101d26d566.mp3",
-   "duration": 17.256
-  },
-  {
-   "kind": "move",
-   "ply": 46,
-   "text": "Caballo a efe cinco. Gemini salva el caballo y de paso ataca la dama blanca y la torre, y tapa la diagonal del alfil.",
-   "audio": "audio/es/edge/046-90829e3b9e.mp3",
+   "text": "Astra saca caballo a efe tres: desarrolla, controla el centro y prepara el avance del peón de cuatro contra el peón de ce cinco.",
+   "audio": "audio/es/edge/003-438246595b.mp3",
    "duration": 8.688
   },
   {
    "kind": "move",
-   "ply": 47,
-   "text": "Alfil por efe cinco. Astra captura el caballo, pero deja su alfil en efe cinco atacado por la dama negra de a cinco y por el peón de e seis.",
-   "audio": "audio/es/edge/047-830f7053d7.mp3",
-   "duration": 9.912
+   "ply": 4,
+   "text": "Gemini juega peón de seis, la continuación clásica, que según él evita el empuje blanco a e cinco y prepara los planes Najdorf, Dragón o Siciliana clásica.",
+   "audio": "audio/es/edge/004-406b8a27a6.mp3",
+   "duration": 10.368
   },
   {
    "kind": "move",
-   "ply": 48,
-   "text": "Peón e por efe cinco. Gemini recaptura el alfil y estira todavía más su ventaja material.",
-   "audio": "audio/es/edge/048-885a0a3509.mp3",
+   "ply": 5,
+   "text": "Astra empuja peón de cuatro, el golpe estándar para desafiar el peón negro de ce cinco.",
+   "audio": "audio/es/edge/005-3762b7d064.mp3",
+   "duration": 6.24
+  },
+  {
+   "kind": "move",
+   "ply": 6,
+   "text": "Gemini captura con peón ce por de cuatro. Cambia un peón de flanco por el peón central blanco, buscando mayoría de peones a largo plazo.",
+   "audio": "audio/es/edge/006-0decadf049.mp3",
+   "duration": 9.864
+  },
+  {
+   "kind": "move",
+   "ply": 7,
+   "text": "Astra recaptura con caballo por de cuatro, restablece el material y deja un caballo bien plantado en el centro.",
+   "audio": "audio/es/edge/007-1296988997.mp3",
    "duration": 7.08
   },
   {
    "kind": "move",
-   "ply": 49,
-   "text": "Torre por hache seis. Astra captura el peón y abre de par en par el flanco del rey negro; la torre queda atacada por el peón de ge siete, pero el modelo avisa que las negras no pueden limitarse a consolidar, deben defenderse con precisión.",
-   "audio": "audio/es/edge/049-674035406e.mp3",
-   "duration": 15.168
+   "ply": 8,
+   "text": "Gemini desarrolla caballo a efe seis y ataca el peón blanco de e cuatro, obligando a las blancas a defenderlo.",
+   "audio": "audio/es/edge/008-b50b152013.mp3",
+   "duration": 7.32
   },
   {
    "kind": "move",
-   "ply": 50,
-   "text": "Dama a a uno, jaque. Gemini elige el jaque antes de cobrar la torre de hache seis: obliga al rey blanco a moverse y su análisis calcula que después toma en hache seis con el peón y que el ataque blanco se apaga. El material sigue siendo una montaña a favor de las negras.",
-   "audio": "audio/es/edge/050-5743db7365.mp3",
-   "duration": 18.24
+   "ply": 9,
+   "text": "Astra defiende con caballo a ce tres. No dejó ningún razonamiento escrito, solo la jugada.",
+   "audio": "audio/es/edge/009-e47b598cb7.mp3",
+   "duration": 7.296
   },
   {
    "kind": "move",
-   "ply": 51,
-   "text": "Astra mueve el rey a efe dos después de veinticuatro segundos. Dice que la jugada es legal y que así conserva dama, torre y alfil para su ataque, pero no menciona que su torre en hache seis sigue atacada por el peón de ge siete.",
-   "audio": "audio/es/edge/051-3d19782521.mp3",
-   "duration": 14.352
+   "ply": 10,
+   "text": "Gemini juega peón a seis y entra en el Najdorf, que él mismo describe como una de las respuestas más ambiciosas y flexibles.",
+   "audio": "audio/es/edge/010-f1c520fd06.mp3",
+   "duration": 8.232
   },
   {
    "kind": "move",
-   "ply": 52,
-   "text": "Gemini responde con dama a be dos, jaque. Ya va siete peones arriba y calcula que el rey blanco tendrá que ir a efe tres, donde el alfil entrará con jaque por ce seis.",
-   "audio": "audio/es/edge/052-1542df7105.mp3",
-   "duration": 12.12
+   "ply": 11,
+   "text": "Astra piensa nueve segundos y saca alfil a ge cinco. Presiona al caballo de efe seis y prepara dama a de dos con enroque largo.",
+   "audio": "audio/es/edge/011-a674a6f99f.mp3",
+   "duration": 8.856
   },
   {
    "kind": "move",
-   "ply": 53,
-   "text": "Astra corre con el rey a efe tres tras casi un minuto de reflexión. Otra vez solo comprueba que la casilla no está atacada, y otra vez deja la torre de hache seis colgada bajo el peón de ge siete.",
-   "audio": "audio/es/edge/053-913469f35e.mp3",
-   "duration": 12.84
+   "ply": 12,
+   "text": "Gemini responde peón e seis, que frena la influencia del alfil y le abre camino a su propio desarrollo.",
+   "audio": "audio/es/edge/012-45a883659b.mp3",
+   "duration": 6.84
   },
   {
    "kind": "move",
-   "ply": 54,
-   "text": "Gemini prefiere alfil a de siete antes que capturar la torre. Explica que tomar en hache seis le daría contrajuego al blanco, y prefiere la diagonal para llegar con jaque desde ce seis.",
-   "audio": "audio/es/edge/054-26a836c215.mp3",
-   "duration": 12.456
+   "ply": 13,
+   "text": "Astra avanza peón efe cuatro, gana espacio en el flanco de rey y prepara el empuje del peón a e cinco.",
+   "audio": "audio/es/edge/013-1ac68325bb.mp3",
+   "duration": 6.84
   },
   {
    "kind": "move",
-   "ply": 55,
-   "text": "Astra piensa doscientos segundos, la reflexión más larga de la partida, y juega dama a ge cinco. Sueña con amenazar dama a hache cinco y luego torre a hache ocho para dar mate, con la dama protegiendo esa torre. La idea es ambiciosa, pero su torre de hache seis sigue completamente indefensa.",
-   "audio": "audio/es/edge/055-83c5cdd0ff.mp3",
-   "duration": 19.848
+   "ply": 14,
+   "text": "Gemini lanza dama a be seis, la legendaria variante del peón envenenado, y apunta directo al peón blanco de be dos.",
+   "audio": "audio/es/edge/014-ec29f0840e.mp3",
+   "duration": 8.016
   },
   {
    "kind": "move",
-   "ply": 56,
-   "text": "Gemini contesta alfil a ce seis, jaque. Dice que si el blanco captura el alfil se queda sin su torre atacante, y que si el rey va a efe cuatro viene dama a de dos con jaque para ganar la dama.",
-   "audio": "audio/es/edge/056-d2a5535ff2.mp3",
-   "duration": 13.056
-  },
-  {
-   "kind": "move",
-   "ply": 57,
-   "text": "Astra mueve el rey a efe cuatro después de ochenta y tres segundos. Ya anticipa dama a de dos con jaque y avisa que responderá capturando en efe cinco, en lugar de retroceder o sacrificar la torre.",
-   "audio": "audio/es/edge/057-e38ddd47b7.mp3",
-   "duration": 12.552
-  },
-  {
-   "kind": "move",
-   "ply": 58,
-   "text": "Gemini ejecuta dama a de dos, jaque. Su lectura es precisa: la dama blanca en ge cinco está en la misma diagonal que el rey, así que el rey debe moverse y la dama cae.",
-   "audio": "audio/es/edge/058-cb57e5414b.mp3",
-   "duration": 11.808
-  },
-  {
-   "kind": "move",
-   "ply": 59,
-   "text": "Astra captura el peón con el rey en efe cinco y reduce la desventaja a seis peones. Argumenta que la captura es segura porque el peón de efe siete bloquea la torre de efe ocho.",
-   "audio": "audio/es/edge/059-fe33d87012.mp3",
-   "duration": 11.544
-  },
-  {
-   "kind": "move",
-   "ply": 60,
-   "text": "Gemini toma la dama en ge cinco con jaque. La dama estaba indefensa: el rey en efe cinco la atacaba y nada la protegía. El cambio deja a las negras quince peones arriba, y Gemini ya anuncia lo que viene: capturar la torre con el peón.",
-   "audio": "audio/es/edge/060-54f4c39dd7.mp3",
-   "duration": 16.704
-  },
-  {
-   "kind": "move",
-   "ply": 61,
-   "text": "Astra recupera con el rey en ge cinco, capturando esa dama sin defensa, y la diferencia vuelve a seis peones.",
-   "audio": "audio/es/edge/061-769116b01a.mp3",
-   "duration": 7.536
-  },
-  {
-   "kind": "move",
-   "ply": 62,
-   "text": "Gemini captura la torre con el peón de ge a hache seis, jaque. Era la pieza que llevaba media partida colgando, y ahora sí cae. La ventaja de las negras sube a once peones.",
-   "audio": "audio/es/edge/062-5107af97d2.mp3",
-   "duration": 13.152
-  },
-  {
-   "kind": "move",
-   "ply": 63,
-   "text": "Astra toma el peón con el rey en hache seis. Es legal porque ninguna pieza negra ataca esa casilla, pero ya está dos torres abajo.",
-   "audio": "audio/es/edge/063-c959ccc77c.mp3",
-   "duration": 9.408
-  },
-  {
-   "kind": "move",
-   "ply": 64,
-   "text": "Gemini activa la torre de a ocho a e ocho y busca la columna abierta, con amenazas como torre a e seis con jaque.",
-   "audio": "audio/es/edge/064-84ed74c1bb.mp3",
-   "duration": 7.728
-  },
-  {
-   "kind": "move",
-   "ply": 65,
-   "text": "Astra piensa cincuenta y cinco segundos y juega alfil a efe cuatro. Explica que alfil a de seis permitiría torre a e seis con jaque y luego la captura del alfil, así que prefiere mantenerlo vivo.",
-   "audio": "audio/es/edge/065-8dc6c03b79.mp3",
-   "duration": 12.936
-  },
-  {
-   "kind": "move",
-   "ply": 66,
-   "text": "Gemini da jaque con torre a e seis. Está una torre arriba y quiere empujar al rey blanco a una casilla todavía peor.",
-   "audio": "audio/es/edge/066-0f7b211c73.mp3",
-   "duration": 8.712
-  },
-  {
-   "kind": "move",
-   "ply": 67,
-   "text": "Astra lleva el rey a ge cinco, diciendo que prefiere alejarse del borde y conservar rutas de escape.",
-   "audio": "audio/es/edge/067-72c19a9df2.mp3",
-   "duration": 6.552
-  },
-  {
-   "kind": "move",
-   "ply": 68,
-   "text": "Gemini insiste con torre a ge seis, jaque. Su plan es apretar la red, y afirma que si el rey va a hache cinco o a efe cinco tendría mates imparables.",
-   "audio": "audio/es/edge/068-ebdfb9cf0d.mp3",
-   "duration": 11.28
-  },
-  {
-   "kind": "move",
-   "ply": 69,
-   "text": "Astra escapa a efe cinco, buscando el centro para no quedar atrapado en el borde.",
-   "audio": "audio/es/edge/069-9062bd904c.mp3",
-   "duration": 5.664
-  },
-  {
-   "kind": "move",
-   "ply": 70,
-   "text": "Gemini trae la torre a e ocho. Asegura que el rey blanco queda sin casillas libres y que amenaza alfil a de siete con mate.",
-   "audio": "audio/es/edge/070-709550be98.mp3",
+   "ply": 15,
+   "text": "Astra piensa trece segundos y juega dama a de dos. Defiende su caballo y prepara torre a be uno para ganar tiempo sobre la dama negra.",
+   "audio": "audio/es/edge/015-84dcf2316a.mp3",
    "duration": 9.168
   },
   {
    "kind": "move",
-   "ply": 71,
-   "text": "Astra piensa sesenta y cuatro segundos y juega alfil a e cinco. Reconoce que su rey no tiene jugadas legales y que cualquier movimiento de peón permitiría mate con el alfil en e cuatro; el alfil bloquea la columna de e y le abre la casilla de efe cuatro.",
-   "audio": "audio/es/edge/071-fde38c7778.mp3",
-   "duration": 16.056
+   "ply": 16,
+   "text": "Gemini acepta el gambito: dama por be dos. Las negras quedan un peón arriba y la dama ataca la torre de a uno, obligando a las blancas a responder.",
+   "audio": "audio/es/edge/016-e33fe4edb3.mp3",
+   "duration": 10.536
   },
   {
    "kind": "move",
-   "ply": 72,
-   "text": "Gemini da jaque con alfil a de siete. Su cálculo resulta exacto: el rey blanco solo puede ir a efe cuatro, y después torre a ge cuatro con jaque para capturar el alfil en e cinco. Es la secuencia que efectivamente ocurre.",
-   "audio": "audio/es/edge/072-3257e89a5c.mp3",
-   "duration": 15.624
+   "ply": 17,
+   "text": "Astra contesta torre a be uno, atacando a la dama negra y ganando un tiempo, tal como había anunciado.",
+   "audio": "audio/es/edge/017-2af968b535.mp3",
+   "duration": 6.984
   },
   {
    "kind": "move",
-   "ply": 73,
-   "text": "Astra mueve el rey a efe cuatro tras treinta y dos segundos. Dice que solo tenía dos respuestas y que esta mantiene el alfil defendido, a diferencia de la otra, que permitiría atacarlo en la columna.",
-   "audio": "audio/es/edge/073-f1be4a4d9b.mp3",
-   "duration": 13.008
+   "ply": 18,
+   "text": "Gemini retira dama a a tres. Según su análisis, es la única casilla segura, y mantiene la presión sobre el flanco de dama.",
+   "audio": "audio/es/edge/018-7a6355ba4a.mp3",
+   "duration": 9.504
   },
   {
    "kind": "move",
-   "ply": 74,
-   "text": "Gemini juega torre a ge cuatro, jaque. La torre está protegida por el alfil de de siete, y Gemini ya tiene calculado que el rey irá a efe tres y que entonces capturará el alfil.",
-   "audio": "audio/es/edge/074-8b956c43af.mp3",
-   "duration": 12.456
+   "ply": 19,
+   "text": "Astra empuja peón e cinco, atacando al caballo de efe seis mientras el rey negro sigue sin enrocar. Es la jugada temática de esta variante, y el modelo insiste en que el rey negro está lejos de la defensa. Pero el número del motor se da vuelta: pasa de una pequeña ventaja blanca a menos veintitrés centipeones para las negras. La iniciativa es real, el precio también.",
+   "audio": "audio/es/edge/019-e0d85f4277.mp3",
+   "duration": 24.624
   },
   {
    "kind": "move",
-   "ply": 75,
-   "text": "Astra responde con el rey a efe tres en veinticuatro segundos, para no alejarse de sus peones y evitar la captura con jaque. Pero el alfil en e cinco sigue atacado por la torre de e ocho, y cae en la jugada siguiente.",
-   "audio": "audio/es/edge/075-ad5cd026a1.mp3",
-   "duration": 14.232
+   "ply": 20,
+   "text": "Gemini captura peón de por e cinco y ahora va dos peones arriba. Dice que sigue el camino teórico más probado y que espera el desarrollo doble de caballo a de siete.",
+   "audio": "audio/es/edge/020-7d9b16c31d.mp3",
+   "duration": 10.896
   },
   {
    "kind": "move",
-   "ply": 76,
-   "text": "Gemini no lo duda ni seis segundos: la torre negra se come el alfil blanco en e cinco, que estaba colgado y sin ninguna defensa. El propio modelo lo dijo sin rodeos: el alfil está indefenso, la torre lo ataca, y tomar es lo más directo. Con eso las negras quedan con dos torres y un alfil de ventaja, y la partida entra en terreno de cosecha.",
-   "audio": "audio/es/edge/076-1557aa7ed7.mp3",
-   "duration": 22.944
+   "ply": 21,
+   "text": "Astra piensa dieciséis segundos y recaptura con peón efe por e cinco, golpeando al caballo negro y devolviendo el material a un solo peón de desventaja. El motor vuelve a marcar equilibrio: la apuesta blanca por la actividad está funcionando.",
+   "audio": "audio/es/edge/021-967e1c7018.mp3",
+   "duration": 15.192
   },
   {
    "kind": "move",
-   "ply": 77,
-   "text": "Astra piensa treinta y siete segundos y juega peón hache tres, golpeando la torre negra en ge cuatro. Curioso: en su propio relato afirma que para el rey solo había una casilla, efe dos, y acto seguido mueve un peón; algo no cuadra en su explicación.",
-   "audio": "audio/es/edge/077-3a0840df08.mp3",
-   "duration": 16.68
+   "ply": 22,
+   "text": "Gemini retira caballo efe a de siete, defiende sus casillas y deja el alfil de ce ocho con la diagonal abierta hacia el flanco de rey.",
+   "audio": "audio/es/edge/022-350b6c6e52.mp3",
+   "duration": 8.784
   },
   {
    "kind": "move",
-   "ply": 78,
-   "text": "Gemini da jaque con el alfil a ce seis, activando la diagonal larga. Lo notable es que su torre en ge cuatro está atacada por el rey y por el peón, y aun así acepta el cambio: ya calculó que si el rey captura, él recupera el peón de ge dos y sigue ganando con enorme comodidad.",
-   "audio": "audio/es/edge/078-178a535d97.mp3",
-   "duration": 18.12
+   "ply": 23,
+   "text": "Astra centraliza con caballo a e cuatro, buscando jaques en de seis y efe seis. Pero hay un detalle importante: el modelo dice que va dos peones abajo, cuando en realidad solo está uno. La premisa es falsa, aunque la idea de mantener la iniciativa sea sensata.",
+   "audio": "audio/es/edge/023-0f11e1a173.mp3",
+   "duration": 18.312
   },
   {
    "kind": "move",
-   "ply": 79,
-   "text": "Astra sale del jaque y se come la torre indefensa en ge cuatro; es su mejor jugada, la única que gana material. Aun así, las negras conservan torre y alfil de ventaja.",
-   "audio": "audio/es/edge/079-c875ab9a0f.mp3",
-   "duration": 11.928
+   "ply": 24,
+   "text": "Gemini juega peón hache seis y pone en duda al alfil de ge cinco antes de consolidar su peón extra, tal como había planeado al descartar la captura del peón de a dos.",
+   "audio": "audio/es/edge/024-7da515ff7c.mp3",
+   "duration": 10.32
   },
   {
    "kind": "move",
-   "ply": 80,
-   "text": "Gemini recupera con alfil por ge dos, se lleva el peón indefenso y le rompe a las blancas la estructura del flanco de rey.",
-   "audio": "audio/es/edge/080-4c529e329f.mp3",
-   "duration": 7.704
+   "ply": 25,
+   "text": "Astra piensa cuarenta y cinco segundos, la reflexión más larga del duelo hasta aquí, y retira alfil a hache cuatro. Conserva el alfil y sus caballos activos, y anuncia que contra la captura del peón de a dos respondería con torre a de uno.",
+   "audio": "audio/es/edge/025-5d90d606f1.mp3",
+   "duration": 15.24
   },
   {
    "kind": "move",
-   "ply": 81,
-   "text": "Astra centraliza el rey a efe cuatro y amenaza la torre negra en e cinco.",
-   "audio": "audio/es/edge/081-d0acc7a101.mp3",
-   "duration": 5.184
+   "ply": 26,
+   "text": "Gemini captura el peón de a dos con la dama, que de paso golpea la torre de b uno. Dice que es la línea crítica del peón envenenado y que ya va dos peones arriba.",
+   "audio": "audio/es/edge/026-07c43fb4d3.mp3",
+   "duration": 11.136
   },
   {
    "kind": "move",
-   "ply": 82,
-   "text": "Gemini responde con peón efe seis, que defiende la torre y le quita al rey blanco las casillas de e cinco y ge cinco.",
-   "audio": "audio/es/edge/082-bdc3475964.mp3",
-   "duration": 7.848
+   "ply": 27,
+   "text": "Astra salva la torre llevándola a de uno, la centraliza y se prepara para desarrollar el alfil y enrocar.",
+   "audio": "audio/es/edge/027-1d9d9afedd.mp3",
+   "duration": 6.936
   },
   {
    "kind": "move",
-   "ply": 83,
-   "text": "Astra sube el rey a ge tres, ataca el alfil en ge dos y defiende su peón de hache tres.",
-   "audio": "audio/es/edge/083-37b8b2d2f9.mp3",
-   "duration": 6.216
+   "ply": 28,
+   "text": "Gemini centraliza la dama en de cinco, ataca al caballo de e cuatro y presiona el peón de e cinco.",
+   "audio": "audio/es/edge/028-31c93fcc5d.mp3",
+   "duration": 6.648
   },
   {
    "kind": "move",
-   "ply": 84,
-   "text": "Gemini retira el alfil a ce seis, a salvo y en la diagonal larga, sin regalar nada.",
-   "audio": "audio/es/edge/084-72f331fa28.mp3",
+   "ply": 29,
+   "text": "Astra sube la dama a e tres para reforzar el caballo de e cuatro y preparar alfil a e dos con enroque.",
+   "audio": "audio/es/edge/029-5898e699e1.mp3",
    "duration": 6.528
   },
   {
    "kind": "move",
-   "ply": 85,
-   "text": "Astra vuelve a efe cuatro y otra vez dice que ataca la torre para ganar un tiempo. Pero esa torre está defendida por el peón de efe seis, así que no hay tiempo que ganar: es puro movimiento de rey sin plan.",
-   "audio": "audio/es/edge/085-bb20258da6.mp3",
-   "duration": 13.32
+   "ply": 30,
+   "text": "Gemini se come el peón de e cinco: ya son tres peones de ventaja. Dice que así elimina el peón avanzado y deja al caballo blanco de e cuatro clavado contra la dama de e tres.",
+   "audio": "audio/es/edge/030-61034e0750.mp3",
+   "duration": 11.592
   },
   {
    "kind": "move",
-   "ply": 86,
-   "text": "Gemini aprovecha y empuja peón a cinco; arranca la marcha del peón pasado y anuncia que el rey blanco no podrá detenerlo.",
-   "audio": "audio/es/edge/086-bde0334e46.mp3",
-   "duration": 8.28
+   "ply": 31,
+   "text": "Astra piensa cuarenta y un segundos, admite que va tres peones abajo y desarrolla el alfil a e dos. Su plan es enrocar y después llevar el alfil a ge tres para golpear a la dama negra.",
+   "audio": "audio/es/edge/031-d9d7245753.mp3",
+   "duration": 12.096
   },
   {
    "kind": "move",
-   "ply": 87,
-   "text": "Astra ya admite que la posición está perdida con juego preciso, y mueve el rey a ge cuatro buscando apoyar su peón de hache.",
-   "audio": "audio/es/edge/087-777548d442.mp3",
-   "duration": 7.8
+   "ply": 32,
+   "text": "Gemini juega alfil a ce cinco, clava el caballo de de cuatro contra la dama de e tres y se prepara para enrocar.",
+   "audio": "audio/es/edge/032-a724221d15.mp3",
+   "duration": 7.392
   },
   {
    "kind": "move",
-   "ply": 88,
-   "text": "Gemini sigue con peón a cuatro; el peón pasado camina solo y el rey blanco está demasiado lejos.",
-   "audio": "audio/es/edge/088-5d72663ac1.mp3",
-   "duration": 6.816
+   "ply": 33,
+   "text": "Astra tarda setenta y dos segundos y ataca la dama con alfil a ge tres. Ya calcula que si las negras cambian en de cuatro, la torre recaptura y la presión sobre el rey sin enrocar se mantiene.",
+   "audio": "audio/es/edge/033-825d17e6b8.mp3",
+   "duration": 12.48
   },
   {
    "kind": "move",
-   "ply": 89,
-   "text": "Astra repite rey a efe cuatro, insistiendo en lo mismo: dice que ataca la torre en e cinco, aunque esa torre sigue defendida y el jaque nunca llega.",
-   "audio": "audio/es/edge/089-238b23931e.mp3",
-   "duration": 10.056
+   "ply": 34,
+   "text": "Gemini elimina el caballo de de cuatro con su alfil, pero deja a su propia dama en e cinco atacada por el alfil de ge tres, y se salva solo porque el jaque siguiente le da tiempo. Además afirma que va dos peones arriba cuando en realidad ya lleva tres.",
+   "audio": "audio/es/edge/034-c930672f7d.mp3",
+   "duration": 15.744
   },
   {
    "kind": "move",
-   "ply": 90,
-   "text": "Gemini no se distrae: peón a tres, y el peón corona en dos jugadas.",
-   "audio": "audio/es/edge/090-1296e166fc.mp3",
-   "duration": 5.712
+   "ply": 35,
+   "text": "Astra recaptura con la torre en de cuatro y calcula bien: si las negras toman la torre, cambian damas y pierden la dama por una torre. Ya piensa en peón a ce tres para frenar el jaque.",
+   "audio": "audio/es/edge/035-aa8c488aaa.mp3",
+   "duration": 12.096
   },
   {
    "kind": "move",
-   "ply": 91,
-   "text": "Astra se toma su tiempo más largo, cuarenta y tres segundos, para mover el rey a ge tres y mantenerse con alguna casilla de escape.",
-   "audio": "audio/es/edge/091-d2fcc6fdc9.mp3",
-   "duration": 8.424
+   "ply": 36,
+   "text": "Gemini escapa con dama a a cinco, jaque. Sale de los dos atacantes y gana un tiempo para enrocar.",
+   "audio": "audio/es/edge/036-81af496937.mp3",
+   "duration": 7.656
   },
   {
    "kind": "move",
-   "ply": 92,
-   "text": "Gemini juega peón a dos y amenaza promocionar directamente en a uno, sin que las blancas tengan nada para interceptar.",
-   "audio": "audio/es/edge/092-22e750c795.mp3",
-   "duration": 7.92
+   "ply": 37,
+   "text": "Astra bloquea el jaque con peón a ce tres, aunque el motor marca imprecisión y prefería torre a de dos.",
+   "audio": "audio/es/edge/037-e532512596.mp3",
+   "duration": 6.936
   },
   {
    "kind": "move",
-   "ply": 93,
-   "text": "Astra reconoce que la coronación es imparable y juega peón hache cuatro, buscando una última escaramuza con su peón.",
-   "audio": "audio/es/edge/093-d1e4b319c0.mp3",
+   "ply": 38,
+   "text": "Gemini enroca corto y pone el rey a salvo. La evaluación se le va claramente a su favor.",
+   "audio": "audio/es/edge/038-da10f04437.mp3",
+   "duration": 6.984
+  },
+  {
+   "kind": "move",
+   "ply": 39,
+   "text": "Astra enroca también, después de ochenta segundos de reflexión, para meter la torre de hache uno en la columna efe.",
+   "audio": "audio/es/edge/039-c8e250c6c9.mp3",
    "duration": 7.584
   },
   {
    "kind": "move",
+   "ply": 40,
+   "text": "Gemini desarrolla caballo a ce seis y ataca la torre blanca de de cuatro, buscando neutralizar la iniciativa.",
+   "audio": "audio/es/edge/040-b250bf0297.mp3",
+   "duration": 7.512
+  },
+  {
+   "kind": "move",
+   "ply": 41,
+   "text": "Aquí llega el momento clave. Astra piensa cuatro minutos y veinte segundos y lanza caballo a efe seis, jaque. El motor lo llama error grave: su caballo quedaba atacado por el peón de ge siete y por el caballo de de siete, y su torre de de cuatro estaba amenazada por el caballo de ce seis, algo que su análisis nunca menciona. Esperaba peón toma efe seis para seguir con torre a ge cuatro, pero eso no pasó.",
+   "audio": "audio/es/edge/041-e7d57266e8.mp3",
+   "duration": 27.048
+  },
+  {
+   "kind": "move",
+   "ply": 42,
+   "text": "Gemini captura el caballo con su caballo. Había descartado rey a hache ocho por torre a hache cuatro, y peón toma efe seis por debilitar su enroque. Ahora las blancas están seis peones abajo en material.",
+   "audio": "audio/es/edge/042-43d661adcb.mp3",
+   "duration": 14.424
+  },
+  {
+   "kind": "move",
+   "ply": 43,
+   "text": "Astra toma el caballo con la torre en efe seis y vuelve a estar tres peones abajo, pero su torre queda colgada ante el peón de ge siete. Confía en que tras peón toma, dama toma hache seis dé mate.",
+   "audio": "audio/es/edge/043-7addb64c8f.mp3",
+   "duration": 12.912
+  },
+  {
+   "kind": "move",
+   "ply": 44,
+   "text": "Gemini no toma la torre: captura la otra torre con caballo por de cuatro y se pone ocho peones arriba. Su caballo queda en de cuatro atacado por el peón de ce tres y la dama de e tres, pero tiene material de sobra para aguantar.",
+   "audio": "audio/es/edge/044-0adc41855d.mp3",
+   "duration": 14.784
+  },
+  {
+   "kind": "move",
+   "ply": 45,
+   "text": "Astra piensa tres minutos y juega alfil a de tres, aunque el motor prefería peón de ce por de cuatro. La torre de efe seis sigue amenazada por el peón de ge siete, y el análisis blanco ni lo menciona.",
+   "audio": "audio/es/edge/045-ffb9e41923.mp3",
+   "duration": 13.296
+  },
+  {
+   "kind": "move",
+   "ply": 46,
+   "text": "Gemini responde caballo a efe cinco: bloquea la diagonal, ataca la dama de e tres y también la torre de efe seis.",
+   "audio": "audio/es/edge/046-8705f85a06.mp3",
+   "duration": 7.992
+  },
+  {
+   "kind": "move",
+   "ply": 47,
+   "text": "Astra captura el caballo con alfil por efe cinco y baja a cinco peones de desventaja. Pero su alfil queda atacado por la dama de a cinco y el peón de e seis, y la torre de efe seis sigue colgando.",
+   "audio": "audio/es/edge/047-d624d92650.mp3",
+   "duration": 12.672
+  },
+  {
+   "kind": "move",
+   "ply": 48,
+   "text": "Gemini recaptura con peón e por efe cinco y vuelve a ocho peones arriba. Descartó peón ge toma efe seis por abrirle líneas a su propio rey.",
+   "audio": "audio/es/edge/048-72a974a7a0.mp3",
+   "duration": 10.08
+  },
+  {
+   "kind": "move",
+   "ply": 49,
+   "text": "Astra insiste con torre por hache seis y se lleva el peón. Está siete peones abajo, la torre la ataca el peón de ge siete y la evaluación es desesperada, pero sigue buscando el ataque al rey.",
+   "audio": "audio/es/edge/049-5ec69a580a.mp3",
+   "duration": 12.552
+  },
+  {
+   "kind": "move",
+   "ply": 50,
+   "text": "Gemini contesta con dama a a uno, jaque, y explica las tres respuestas posibles. En todas se queda con una torre de más y la partida ya está prácticamente decidida.",
+   "audio": "audio/es/edge/050-f7dd69e0a8.mp3",
+   "duration": 11.904
+  },
+  {
+   "kind": "move",
+   "ply": 51,
+   "text": "Astra mueve el rey a efe dos para salir del jaque. Explica que ahí el rey está a salvo, porque el peón de efe siete tapa la torre, y que así conserva dama, torre y alfil para su ataque. Lo que no menciona es que su torre en hache seis sigue colgada, atacada por el peón de ge siete, y ya lleva varias jugadas así.",
+   "audio": "audio/es/edge/051-0c4aac7323.mp3",
+   "duration": 20.808
+  },
+  {
+   "kind": "move",
+   "ply": 52,
+   "text": "Gemini responde con dama a be dos, jaque. Dice que quiere forzar al rey blanco a una casilla incómoda y calcula tres respuestas posibles: rey a efe tres, rey a efe uno o rey a e uno, con líneas de jaque en todas.",
+   "audio": "audio/es/edge/052-5aa2c57e6d.mp3",
+   "duration": 15.408
+  },
+  {
+   "kind": "move",
+   "ply": 53,
+   "text": "Astra piensa casi un minuto y mueve el rey a efe tres. Su argumento es sencillo: sale del jaque y mantiene dama, torre y alfil activos para el ataque. La torre de hache seis sigue ahí, todavía atacada y todavía sin defender.",
+   "audio": "audio/es/edge/053-7c080f181b.mp3",
+   "duration": 16.296
+  },
+  {
+   "kind": "move",
+   "ply": 54,
+   "text": "Gemini juega alfil a de siete en siete segundos. Descarta capturar la torre porque teme contrajuego blanco, y prefiere apuntar la diagonal larga para el jaque de alfil a ce seis.",
+   "audio": "audio/es/edge/054-e9c8fac6d1.mp3",
+   "duration": 12.216
+  },
+  {
+   "kind": "move",
+   "ply": 55,
+   "text": "Astra se toma doscientos segundos, más de tres minutos, para jugar dama a ge cinco. Su plan es amenazar dama a hache cinco y luego torre a hache ocho, mate. Es una idea ambiciosa, pero ignora por completo que su torre de hache seis sigue pendiendo de un hilo.",
+   "audio": "audio/es/edge/055-bb52ca3876.mp3",
+   "duration": 18.024
+  },
+  {
+   "kind": "move",
+   "ply": 56,
+   "text": "Gemini contesta con alfil a ce seis, jaque, y otra vez en ocho segundos. Su cálculo es preciso: si las blancas capturan el alfil, la torre de hache seis desaparece de la ecuación; si el rey va a efe cuatro, viene dama a de dos con jaque.",
+   "audio": "audio/es/edge/056-10a25794da.mp3",
+   "duration": 16.944
+  },
+  {
+   "kind": "move",
+   "ply": 57,
+   "text": "Astra piensa ochenta y tres segundos y juega rey a efe cuatro, entrando él solo en la diagonal del alfil. Su idea es que después de dama a de dos puede capturar en efe cinco. La evaluación se desploma a más de mil centipeones en contra.",
+   "audio": "audio/es/edge/057-8a0bb1971d.mp3",
+   "duration": 15.624
+  },
+  {
+   "kind": "move",
+   "ply": 58,
+   "text": "Gemini clava la dama con dama a de dos, jaque. Explica que la dama blanca en ge cinco está en la misma diagonal que el rey, así que no hay interposición posible en e tres y la dama cae en la jugada siguiente.",
+   "audio": "audio/es/edge/058-7b07cea5e0.mp3",
+   "duration": 13.68
+  },
+  {
+   "kind": "move",
+   "ply": 59,
+   "text": "Astra piensa cuarenta y cinco segundos y captura el peón con rey por efe cinco. Dice que la captura es segura porque el peón de efe siete bloquea la torre. Pero acaba de meterse justo en la clavada: la dama en ge cinco está perdida.",
+   "audio": "audio/es/edge/059-860185976e.mp3",
+   "duration": 15.048
+  },
+  {
+   "kind": "move",
+   "ply": 60,
+   "text": "Gemini toma la dama con dama por ge cinco, jaque. Señala que la dama blanca estaba indefensa y anuncia la secuencia completa: después de que el rey recapture, el peón de ge siete captura la torre de hache seis con jaque. El material salta a quince peones de ventaja.",
+   "audio": "audio/es/edge/060-0a8b89711e.mp3",
+   "duration": 18.024
+  },
+  {
+   "kind": "move",
+   "ply": 61,
+   "text": "Astra recaptura con rey por ge cinco. Reconoce que la dama negra estaba sin defensa y que capturarla era legal, aunque el daño ya está hecho.",
+   "audio": "audio/es/edge/061-a58ab4d70f.mp3",
+   "duration": 9.96
+  },
+  {
+   "kind": "move",
+   "ply": 62,
+   "text": "Gemini ejecuta lo anunciado: peón ge por hache seis, jaque. La torre blanca cae y con ella cualquier resto de ataque. El peón de ge siete llevaba media partida apuntando a esa casilla, y nadie en el bando blanco lo había tocado.",
+   "audio": "audio/es/edge/062-454a0c885b.mp3",
+   "duration": 15.888
+  },
+  {
+   "kind": "move",
+   "ply": 63,
+   "text": "Astra captura el peón con rey por hache seis. Comprueba que ninguna pieza negra ataca esa casilla y reduce un poco la desventaja material.",
+   "audio": "audio/es/edge/063-2215ab535e.mp3",
+   "duration": 9.6
+  },
+  {
+   "kind": "move",
+   "ply": 64,
+   "text": "Gemini activa la torre con torre a a e ocho, buscando la columna de e abierta. Amenaza torre a e seis con jaque y también una descubierta contra el alfil si este se acerca a de seis.",
+   "audio": "audio/es/edge/064-8705a6d776.mp3",
+   "duration": 12.432
+  },
+  {
+   "kind": "move",
+   "ply": 65,
+   "text": "Astra piensa cincuenta y cinco segundos y juega alfil a efe cuatro. Dice que bajar el alfil a de seis perdería por torre a e seis con jaque y captura, así que mantiene el alfil activo y reserva ge cinco y hache cinco para el rey.",
+   "audio": "audio/es/edge/065-1ae3f312c7.mp3",
+   "duration": 14.784
+  },
+  {
+   "kind": "move",
+   "ply": 66,
+   "text": "Gemini da jaque con torre a e seis. Quiere empujar al rey blanco todavía más lejos y coordinar las dos torres y el alfil contra un rey que anda perdido por el centro.",
+   "audio": "audio/es/edge/066-80e291bc93.mp3",
+   "duration": 11.304
+  },
+  {
+   "kind": "move",
+   "ply": 67,
+   "text": "Astra mueve el rey a ge cinco. Prefiere esa casilla a hache cinco para no quedar arrinconado contra el borde.",
+   "audio": "audio/es/edge/067-7b7252a303.mp3",
+   "duration": 7.656
+  },
+  {
+   "kind": "move",
+   "ply": 68,
+   "text": "Gemini insiste con torre a ge seis, jaque. Enumera las respuestas del rey y en todas ve jaques, capturas o redes de mate.",
+   "audio": "audio/es/edge/068-ac130e637a.mp3",
+   "duration": 9.384
+  },
+  {
+   "kind": "move",
+   "ply": 69,
+   "text": "Astra devuelve el rey a efe cinco. Busca el centro para no quedar atrapado en el borde por las torres negras.",
+   "audio": "audio/es/edge/069-00e40f79f8.mp3",
+   "duration": 7.776
+  },
+  {
+   "kind": "move",
+   "ply": 70,
+   "text": "Gemini juega torre a e ocho y afirma que el rey blanco se queda sin casillas de escape. Anuncia la amenaza de alfil a de siete, mate. Es la red cerrándose.",
+   "audio": "audio/es/edge/070-424b284f50.mp3",
+   "duration": 11.808
+  },
+  {
+   "kind": "move",
+   "ply": 71,
+   "text": "Astra piensa sesenta y cuatro segundos y juega alfil a e cinco. Reconoce que el rey no tiene jugadas legales, bloquea la columna de e y libera efe cuatro para el rey. Es una defensa ingeniosa, pero el alfil queda expuesto en el centro del tablero.",
+   "audio": "audio/es/edge/071-f837655917.mp3",
+   "duration": 16.608
+  },
+  {
+   "kind": "move",
+   "ply": 72,
+   "text": "Gemini juega alfil a de siete, jaque. Calcula que el rey blanco solo tiene una casilla legal, rey a efe cuatro, y que después viene torre a ge cuatro con jaque y la captura del alfil de e cinco.",
+   "audio": "audio/es/edge/072-c16516fccd.mp3",
+   "duration": 13.128
+  },
+  {
+   "kind": "move",
+   "ply": 73,
+   "text": "Astra mueve el rey a efe cuatro, la única casilla que le queda según su propio cálculo. Dice que así mantiene el alfil de e cinco defendido y evita problemas en la columna de e.",
+   "audio": "audio/es/edge/073-5e73fdd286.mp3",
+   "duration": 11.712
+  },
+  {
+   "kind": "move",
+   "ply": 74,
+   "text": "Gemini da jaque con torre a ge cuatro. Explica que la torre está protegida por el alfil y que todas las casillas del rey están cubiertas, así que la única respuesta es rey a efe tres, y entonces captura el alfil. El plan funciona tal cual.",
+   "audio": "audio/es/edge/074-c0a27b4398.mp3",
+   "duration": 16.656
+  },
+  {
+   "kind": "move",
+   "ply": 75,
+   "text": "Astra juega rey a efe tres y sostiene que así evita permitir la captura del alfil con jaque. Pero el alfil de e cinco queda atacado por la torre de e ocho, y en la jugada siguiente Gemini simplemente lo toma. La pieza estaba colgada y el razonamiento blanco no lo vio.",
+   "audio": "audio/es/edge/075-7679991cf4.mp3",
+   "duration": 17.832
+  },
+  {
+   "kind": "move",
+   "ply": 76,
+   "text": "Gemini toma el alfil con torre por e cinco. Su razonamiento es directo: el alfil de Astra estaba colgado y sin defensa, y capturarlo era lo más simple. Queda con dos torres y un alfil de ventaja.",
+   "audio": "audio/es/edge/076-f19d06830e.mp3",
+   "duration": 14.136
+  },
+  {
+   "kind": "move",
+   "ply": 77,
+   "text": "Astra piensa treinta y siete segundos y juega peón hache tres, atacando la torre negra en ge cuatro y preparando el avance de sus peones. Sabe que está perdido, pero busca contragolpe práctico.",
+   "audio": "audio/es/edge/077-6333502e90.mp3",
+   "duration": 12.864
+  },
+  {
+   "kind": "move",
+   "ply": 78,
+   "text": "Gemini responde con alfil a ce seis, jaque. Curiosamente, deja la torre de ge cuatro atacada por el rey blanco y por el peón de hache tres, pero su cálculo es que si el rey la captura, alfil por ge dos simplifica a un final ganado.",
+   "audio": "audio/es/edge/078-5d6d700aad.mp3",
+   "duration": 15.768
+  },
+  {
+   "kind": "move",
+   "ply": 79,
+   "text": "Astra escapa del jaque con rey por ge cuatro, capturando la torre indefensa. Recupera material y verifica con cuidado que ninguna pieza negra controle esa casilla.",
+   "audio": "audio/es/edge/079-764559949f.mp3",
+   "duration": 10.992
+  },
+  {
+   "kind": "move",
+   "ply": 80,
+   "text": "Gemini juega alfil por ge dos, tomando el peón. Cuatro segundos le bastan: reconoce que el peón no está defendido y que el rey blanco quedó sin piezas que lo protejan.",
+   "audio": "audio/es/edge/080-f45477896c.mp3",
+   "duration": 11.448
+  },
+  {
+   "kind": "move",
+   "ply": 81,
+   "text": "Astra mueve rey a efe cuatro, centralizando y atacando la torre de e cinco para forzar a Gemini a responder. Es la única clase de presión que le queda.",
+   "audio": "audio/es/edge/081-ed9bd28e01.mp3",
+   "duration": 10.44
+  },
+  {
+   "kind": "move",
+   "ply": 82,
+   "text": "Gemini defiende con peón efe seis, que protege la torre y le quita al rey blanco las casillas de e cinco y ge cinco. Sin prisa, sin errores.",
+   "audio": "audio/es/edge/082-363e29026e.mp3",
+   "duration": 10.464
+  },
+  {
+   "kind": "move",
+   "ply": 83,
+   "text": "Astra piensa veintisiete segundos y juega rey a ge tres, atacando el alfil de ge dos y a la vez defendiendo su peón de hache tres. Resistencia razonable en una posición sin esperanza.",
+   "audio": "audio/es/edge/083-13373ee014.mp3",
+   "duration": 12.48
+  },
+  {
+   "kind": "move",
+   "ply": 84,
+   "text": "Gemini retira el alfil a ce seis, a la diagonal larga. Su plan declarado es conservar todo el material y luego empujar los peones del flanco de dama.",
+   "audio": "audio/es/edge/084-3330c53beb.mp3",
+   "duration": 10.368
+  },
+  {
+   "kind": "move",
+   "ply": 85,
+   "text": "Astra vuelve con rey a efe cuatro, treinta y cuatro segundos para repetir la misma idea: atacar la torre de e cinco. Es coherente, pero la posición ya no cambia.",
+   "audio": "audio/es/edge/085-be8b1ba662.mp3",
+   "duration": 11.448
+  },
+  {
+   "kind": "move",
+   "ply": 86,
+   "text": "Gemini empieza la marcha con peón a cinco. Su análisis es tajante: el rey blanco está demasiado lejos para detener ese peón.",
+   "audio": "audio/es/edge/086-7f029dc0d3.mp3",
+   "duration": 9.408
+  },
+  {
+   "kind": "move",
+   "ply": 87,
+   "text": "Astra juega rey a ge cuatro, admitiendo en su razonamiento que la partida está perdida con juego preciso. Busca acercarse a su peón de hache.",
+   "audio": "audio/es/edge/087-a9c03594d8.mp3",
+   "duration": 9.576
+  },
+  {
+   "kind": "move",
+   "ply": 88,
+   "text": "Gemini avanza peón a cuatro. Aquí la evaluación se derrumba por completo del lado blanco: el peón pasado es imparable.",
+   "audio": "audio/es/edge/088-70ff2708c7.mp3",
+   "duration": 8.64
+  },
+  {
+   "kind": "move",
+   "ply": 89,
+   "text": "Astra insiste con rey a efe cuatro, otra vez atacando la torre. Su razonamiento repite casi palabra por palabra el de jugadas anteriores.",
+   "audio": "audio/es/edge/089-5022c26506.mp3",
+   "duration": 9.912
+  },
+  {
+   "kind": "move",
+   "ply": 90,
+   "text": "Gemini sigue con peón a tres y anuncia que coronará en dos jugadas. No hay nada que Astra pueda hacer al respecto.",
+   "audio": "audio/es/edge/090-18a2d51c88.mp3",
+   "duration": 8.184
+  },
+  {
+   "kind": "move",
+   "ply": 91,
+   "text": "Astra piensa cuarenta y tres segundos para jugar rey a ge tres, buscando rutas de escape hacia efe dos y hache dos. Es el movimiento más lento de esta fase final.",
+   "audio": "audio/es/edge/091-fcab7ddec9.mp3",
+   "duration": 11.328
+  },
+  {
+   "kind": "move",
+   "ply": 92,
+   "text": "Gemini juega peón a dos y amenaza coronar de inmediato. Su cálculo es correcto: ninguna pieza blanca puede interceptar el peón.",
+   "audio": "audio/es/edge/092-c14f79c5af.mp3",
+   "duration": 9.312
+  },
+  {
+   "kind": "move",
+   "ply": 93,
+   "text": "Astra juega peón hache cuatro, reconociendo que no puede evitar la coronación y que su única esperanza práctica es crear algún contragolpe.",
+   "audio": "audio/es/edge/093-a95c63f802.mp3",
+   "duration": 8.592
+  },
+  {
+   "kind": "move",
    "ply": 94,
-   "text": "Gemini corona: peón a uno corona dama. La ventaja negra salta a niveles absurdos, con dama, torre y alfil contra rey y peones. Y en todo ese trámite Astra nunca tuvo una pieza capaz de acercarse a la casilla a uno.",
-   "audio": "audio/es/edge/094-6d68611ee9.mp3",
-   "duration": 16.104
+   "text": "Gemini corona con peón a uno corona dama. La ventaja de material se vuelve absurda: dama, torre y alfil contra un rey y unos pocos peones.",
+   "audio": "audio/es/edge/094-903ec61f71.mp3",
+   "duration": 10.368
   },
   {
    "kind": "move",
    "ply": 95,
-   "text": "Astra mueve el rey a efe cuatro y lo llama casilla segura. No lo es: en la jugada siguiente llega un jaque por la columna efe que inicia la red de mate. Ese es el detalle que se le escapó.",
-   "audio": "audio/es/edge/095-dadf58d8a5.mp3",
-   "duration": 13.344
+   "text": "Astra juega rey a efe cuatro, atacando la torre de e cinco una vez más. Es la misma idea de siempre, en una posición completamente perdida.",
+   "audio": "audio/es/edge/095-c8fed6f2d5.mp3",
+   "duration": 10.248
   },
   {
    "kind": "move",
    "ply": 96,
-   "text": "Gemini juega dama a efe uno, jaque, y aquí se ve la diferencia: la dama recién coronada entra por la primera fila y ataca al rey expuesto. El modelo calculó las dos respuestas y anunció mate en dos por cualquiera de los caminos, con el alfil de ce seis cubriendo la diagonal larga. Fuerza la secuencia sin dejar ninguna duda.",
-   "audio": "audio/es/edge/096-fe8418abfd.mp3",
-   "duration": 21.768
+   "text": "Gemini da jaque con dama a efe uno. Su razonamiento aquí es excelente: calcula que el rey blanco solo tiene dos respuestas y que ambas llevan al mate, describiendo las casillas de escape una por una.",
+   "audio": "audio/es/edge/096-fcade8ec48.mp3",
+   "duration": 13.608
   },
   {
    "kind": "move",
    "ply": 97,
-   "text": "Astra encuentra la única resistencia real: rey a ge tres, y descarta con razón ir a ge cuatro porque allí caería en mate inmediato con dama a efe tres. Acierta al esquivar el golpe de ahora, pero no alcanza a ver que el mate sigue llegando igual en la siguiente jugada.",
-   "audio": "audio/es/edge/097-0a78c2b543.mp3",
-   "duration": 17.28
+   "text": "Astra elige rey a ge tres y evita el mate inmediato. Su análisis es correcto: ve que rey a ge cuatro permitiría dama a efe tres, jaque mate, y que aquí todavía puede escapar a hache dos.",
+   "audio": "audio/es/edge/097-b77e922cf2.mp3",
+   "duration": 13.248
   },
   {
    "kind": "move",
    "ply": 98,
-   "text": "Gemini juega dama a efe tres, jaque, y obliga al rey blanco a la única casilla que le queda: hache dos.",
-   "audio": "audio/es/edge/098-be3e6b8db5.mp3",
-   "duration": 7.704
+   "text": "Gemini juega dama a efe tres, jaque. Anuncia mate en dos y no se equivoca: el alfil de ce seis sostiene la dama en la diagonal.",
+   "audio": "audio/es/edge/098-6f7e46b54d.mp3",
+   "duration": 9.84
   },
   {
    "kind": "move",
    "ply": 99,
-   "text": "Astra acepta el destino y juega rey a hache dos. Su razonamiento es correcto: capturar la dama es ilegal porque el alfil de ce seis la protege, y todas las demás casillas vecinas están atacadas u ocupadas.",
-   "audio": "audio/es/edge/099-969dde0e52.mp3",
-   "duration": 14.304
+   "text": "Astra juega rey a hache dos, forzado. Explica bien que capturar la dama es ilegal porque el alfil la protege, y que todas las demás casillas están cubiertas.",
+   "audio": "audio/es/edge/099-2cd4a4ce6b.mp3",
+   "duration": 11.232
   },
   {
    "kind": "move",
    "ply": 100,
-   "text": "Y llega el remate: dama a ge dos, jaque mate, con el alfil de ce seis sosteniendo la dama por la diagonal larga. El rey blanco no tiene escape y no puede capturar. Gemini cierra la partida con la misma precisión con la que administró su ventaja durante treinta jugadas, y las negras ganan cero a uno.",
-   "audio": "audio/es/edge/100-0961acdb2a.mp3",
-   "duration": 20.376
+   "text": "Gemini cierra con dama a ge dos, jaque mate. Su razonamiento final es limpio y correcto: el rey blanco queda sin escapatoria y la dama no puede ser capturada porque el alfil la respalda en la diagonal larga.",
+   "audio": "audio/es/edge/100-a80d5931d9.mp3",
+   "duration": 13.968
   },
   {
    "kind": "outro",
    "ply": 100,
-   "text": "Ganaron las negras: Gemini dio mate en la jugada cincuenta, con dama a ge dos sostenida por el alfil de la diagonal larga. La partida se decidió mucho antes, cuando Gemini acumuló material sin piedad y luego empujó el peón de la columna a hasta coronar, sin que Astra pudiera hacer nada por detenerlo. El contraste entre los dos modelos fue claro: Astra jugó muchas veces verificando apenas si la jugada era legal, dejó su alfil colgado en e cinco, llamó segura a la casilla efe cuatro justo antes del jaque que inició el mate, y nunca vio que el mate seguía tras su mejor defensa. Gemini, en cambio, tuvo un plan simple y constante: tomar todo lo que estaba regalado, simplificar, y ejecutar el final con secuencias de mate calculadas de antemano. Fue una lección de que en el ajedrez no basta con que la jugada sea legal; hay que mirar también lo que el rival acaba de amenazar.",
-   "audio": "audio/es/edge/101-594b7dd25e.mp3",
-   "duration": 55.2
+   "text": "Gemini ganó la partida con jaque mate en la jugada cincuenta, tras una conversión larga y sin sobresaltos. La ventaja de material ya era enorme cuando capturó el alfil con torre por e cinco, y desde ahí el plan fue sencillo: empujar su peón de torre hasta coronar y después rematar con la dama y el alfil. Astra, en cambio, jugó sus últimas jugadas con una honestidad brutal: reconoció una y otra vez que estaba perdido y buscó resistencia práctica, moviendo el rey a efe cuatro para atacar la torre, una y otra vez. Ese contraste dice mucho: Gemini razonó como un conversor, calculando jaques y mates forzados con precisión, mientras Astra razonó como un defensor que sabe que no hay salvación pero sigue buscando la jugada más incómoda. Vale la pena señalar que Astra vio correctamente que rey a ge cuatro permitía mate inmediato y eligió rey a ge tres; aun así, la dama a efe tres y luego dama a ge dos cerraron la partida. También llama la atención el ritmo: Gemini necesitaba apenas unos segundos para las jugadas decisivas, mientras Astra pensaba treinta o cuarenta segundos en movimientos que ya no cambiaban nada. El resultado, cero a uno, confirma lo que se veía desde el medio juego: la ventaja material bien administrada pesa más que la resistencia creativa.",
+   "audio": "audio/es/edge/101-b079242bd0.mp3",
+   "duration": 80.592
   }
  ]
 }
