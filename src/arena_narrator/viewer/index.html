@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arena Narrator</title>
+  <link rel="stylesheet" href="viewer.css">
+</head>
+<body>
+  <header class="top">
+    <div class="players">
+      <span class="player white"><span class="dot"></span><span id="white-name">White</span></span>
+      <span class="vs">vs</span>
+      <span class="player black"><span class="dot"></span><span id="black-name">Black</span></span>
+      <span id="result" class="result"></span>
+    </div>
+    <div class="meta">
+      <a id="source" target="_blank" rel="noopener">Kaggle</a>
+      <select id="lang" aria-label="Language"></select>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="board-col">
+      <div class="board-wrap">
+        <div id="board" class="board" aria-label="Chess board"></div>
+      </div>
+      <div class="controls">
+        <button id="first" title="Start (Home)">⏮</button>
+        <button id="prev" title="Previous (←)">◀</button>
+        <button id="play" class="primary" title="Play / pause (Space)">▶</button>
+        <button id="next" title="Next (→)">▶︎▶︎</button>
+        <button id="last" title="End (End)">⏭</button>
+        <select id="speed" aria-label="Speed">
+          <option value="0.85">0.85×</option>
+          <option value="1" selected>1×</option>
+          <option value="1.25">1.25×</option>
+          <option value="1.5">1.5×</option>
+          <option value="2">2×</option>
+        </select>
+        <button id="flip" title="Flip board (F)">⇅</button>
+      </div>
+      <div class="progress"><div id="progress-bar"></div></div>
+    </section>
+
+    <section class="side">
+      <div class="now">
+        <div id="move-title" class="move-title"></div>
+        <div id="move-meta" class="move-meta"></div>
+      </div>
+      <p id="caption" class="caption"></p>
+      <details id="thoughts-box" class="thoughts" open>
+        <summary id="thoughts-label">Model reasoning</summary>
+        <pre id="thoughts"></pre>
+      </details>
+      <ol id="moves" class="moves"></ol>
+    </section>
+  </main>
+
+  <audio id="audio" preload="auto"></audio>
+  <script src="viewer.js"></script>
+</body>
+</html>
