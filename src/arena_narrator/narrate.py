@@ -101,11 +101,14 @@ def _move_block(mv: Move, lang: str) -> str:
             + "; ".join(f["hanging_after_move"])
         )
     if "eval_white_cp" in f:
-        facts.append(f"engine eval (White POV, centipawns): {f['eval_white_cp']}")
+        cp = f["eval_white_cp"]
+        facts.append(f"engine eval after the move: {cp / 100:+.1f} pawns for White"
+                     + (" (forced mate)" if abs(cp) >= 9000 else ""))
     if f.get("engine_verdict"):
         facts.append(
-            f"engine verdict: {f['engine_verdict']} (winning chances dropped by "
-            f"{f.get('win_chance_drop_for_mover')})"
+            f"engine verdict: {f['engine_verdict']} (the mover's winning chances fell by "
+            f"{round(100 * f.get('win_chance_drop_for_mover', 0) / 2)} percentage points; "
+            "this is not a centipawn value)"
         )
     if f.get("engine_best_move"):
         best = f["engine_best_move"]

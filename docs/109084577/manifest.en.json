@@ -1,0 +1,2033 @@
+{
+ "episode": 109084577,
+ "source": "https://www.kaggle.com/game-arena?episodeId=109084577",
+ "white": "gpt-6-astra",
+ "black": "gemini-3.7-flash",
+ "result": "0-1",
+ "termination": "checkmate",
+ "forfeit": null,
+ "start_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+ "lang": "en",
+ "tts": "edge",
+ "voice": "en-US-GuyNeural",
+ "narrator": "openrouter:deepseek/deepseek-v4-flash",
+ "full_audio": "narration.en.mp3",
+ "moves": [
+  {
+   "ply": 1,
+   "number": 1,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "e4",
+   "from": "e2",
+   "to": "e4",
+   "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+   "thoughts": "The center is uncontested. Moving the e-pawn two squares is legal, claims central space, and opens lines for the bishop and queen.\n\nFinal Answer: e4",
+   "time": 8.075,
+   "check": false
+  },
+  {
+   "ply": 2,
+   "number": 1,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "c5",
+   "from": "c7",
+   "to": "c5",
+   "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+   "thoughts": "To respond to White's opening move 1. e4, Black has several strong classical and hypermodern choices, including 1...e5, 1...c5, 1...e6, and 1...c6. \n\nThe most dynamic and popular choice at top-level chess is the Sicilian Defense with **1...c5**. It prevents White from establishing an uncontested pawn center with d4, leads to an asymmetrical pawn structure, and gives Black excellent winning chances.\n\nFinal Answer: c5",
+   "time": 4.536,
+   "check": false
+  },
+  {
+   "ply": 3,
+   "number": 2,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Nf3",
+   "from": "g1",
+   "to": "f3",
+   "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+   "thoughts": "Nf3 develops a kingside piece, controls the center, and prepares d4 to challenge Black’s c5 pawn.\n\nFinal Answer: Nf3",
+   "time": 4.524,
+   "check": false
+  },
+  {
+   "ply": 4,
+   "number": 2,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "d6",
+   "from": "d7",
+   "to": "d6",
+   "fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+   "thoughts": "The game has started with the Sicilian Defense (1. e4 c5 2. Nf3). \n\nBlack has several strong and popular main-line choices here, such as 2...d6, 2...Nc6, and 2...e6. \n\nThe move **2...d6** is the most classical continuation, preventing White's pawn from pushing to e5 in many lines, controlling the central squares, and preparing for setups like the Najdorf, Dragon, or Classical Sicilian after White plays the standard 3. d4.\n\nFinal Answer: d6",
+   "time": 3.437,
+   "check": false
+  },
+  {
+   "ply": 5,
+   "number": 3,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "d4",
+   "from": "d2",
+   "to": "d4",
+   "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+   "thoughts": "The strongest standard continuation is **3. d4**, challenging Black’s c5-pawn and opening the center for rapid development. After ...cxd4, White can recapture with Nxd4.\n\nFinal Answer: d4",
+   "time": 4.837,
+   "check": false
+  },
+  {
+   "ply": 6,
+   "number": 3,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "cxd4",
+   "from": "c5",
+   "to": "d4",
+   "fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+   "thoughts": "To play the strongest and most classical continuation against White's Open Sicilian setup, Black should capture the central pawn on d4. This exchanges a flank pawn (the c-pawn) for White's central d-pawn, securing central pawn majority for Black in the long run.\n\nFinal Answer: cxd4",
+   "time": 4.475,
+   "check": false
+  },
+  {
+   "ply": 7,
+   "number": 4,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Nxd4",
+   "from": "f3",
+   "to": "d4",
+   "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+   "thoughts": "Recapturing the pawn restores material balance and places the knight on a strong central square.\n\nFinal Answer: Nxd4",
+   "time": 4.776,
+   "check": false
+  },
+  {
+   "ply": 8,
+   "number": 4,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Nf6",
+   "from": "g8",
+   "to": "f6",
+   "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+   "thoughts": "The position is the standard Open Sicilian Defense after 1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4. \n\nThe most natural, active, and standard continuation for Black is developing the kingside knight to attack White's undefended pawn on e4. This forces White to commit a piece (usually 5. Nc3) to defend the center before Black chooses their specific Sicilian setup (such as the Najdorf, Dragon, or Classical).\n\nTherefore, Black's strongest and most theoretical move is 4...Nf6.\n\nFinal Answer: Nf6",
+   "time": 4.352,
+   "check": false
+  },
+  {
+   "ply": 9,
+   "number": 5,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Nc3",
+   "from": "b1",
+   "to": "c3",
+   "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+   "thoughts": "Final Answer: Nc3",
+   "time": 4.47,
+   "check": false
+  },
+  {
+   "ply": 10,
+   "number": 5,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "a6",
+   "from": "a7",
+   "to": "a6",
+   "fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+   "thoughts": "In the Open Sicilian (1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3), Black has several main choices:\n- **5...a6** enters the Najdorf Variation, preventing White's pieces from utilizing the b5 square and preparing queenside counterplay.\n- **5...g6** leads to the Dragon Variation.\n- **5...Nc6** leads to the Classical Variation.\n- **5...e6** leads to the Scheveningen Variation.\n\nThe Najdorf with **5...a6** is universally recognized as one of Black's most ambitious, flexible, and theoretically sound responses to 1. e4.\n\nFinal Answer: a6",
+   "time": 3.823,
+   "check": false
+  },
+  {
+   "ply": 11,
+   "number": 6,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Bg5",
+   "from": "c1",
+   "to": "g5",
+   "fen": "rnbqkb1r/1p2pppp/p2p1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 1 6",
+   "thoughts": "Bg5 is a strong main-line response to the Najdorf: it develops the bishop actively, pressures the f6 knight, and prepares Qd2 followed by queenside castling.\n\nFinal Answer: Bg5",
+   "time": 8.514,
+   "check": false
+  },
+  {
+   "ply": 12,
+   "number": 6,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "e6",
+   "from": "e7",
+   "to": "e6",
+   "fen": "rnbqkb1r/1p3ppp/p2ppn2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w KQkq - 0 7",
+   "thoughts": "In the Sicilian Najdorf with 6. Bg5, Black's most principled, theoretically established, and strongest continuation is **6...e6**. \n\nThis move blunts the g5-bishop's influence over the center, defends against any immediate e4-e5 pushes, and prepares classical development with ...Be7, ...Nbd7, and queenside counterplay.\n\nFinal Answer: e6",
+   "time": 4.278,
+   "check": false
+  },
+  {
+   "ply": 13,
+   "number": 7,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "f4",
+   "from": "f2",
+   "to": "f4",
+   "fen": "rnbqkb1r/1p3ppp/p2ppn2/6B1/3NPP2/2N5/PPP3PP/R2QKB1R b KQkq - 0 7",
+   "thoughts": "**f4** is the main-line continuation in this Najdorf position. It gains kingside space, supports a future e5 advance, and prepares an attacking setup with Qf3 and queenside castling. The two-square pawn advance is legal because f3 and f4 are clear.\n\nFinal Answer: f4",
+   "time": 9.033,
+   "check": false
+  },
+  {
+   "ply": 14,
+   "number": 7,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qb6",
+   "from": "d8",
+   "to": "b6",
+   "fen": "rnb1kb1r/1p3ppp/pq1ppn2/6B1/3NPP2/2N5/PPP3PP/R2QKB1R w KQkq - 1 8",
+   "thoughts": "In this position of the Sicilian Defense (Najdorf Variation, 6. Bg5 main line), Black has reached a critical junction after 7. f4. \n\nThe main continuations are:\n1. **7... Qb6** – The legendary **Poisoned Pawn Variation**, historically championed by Fischer and Kasparov and reinforced by modern engine analysis. Black immediately targets the weakened b2-pawn and puts pressure on White's d4-knight.\n2. **7... Be7** – The Classical Main Line, developing the dark-squared bishop, breaking the pin on the f6-knight, and preparing castling.\n3. **7... Nbd7** or **7... b5** – Solid alternative setups.\n\n7... Qb6 is widely considered Black's most ambitious and theoretically critical response, actively fighting for counterplay and testing White's initiative.\n\nFinal Answer: Qb6",
+   "time": 4.854,
+   "check": false
+  },
+  {
+   "ply": 15,
+   "number": 8,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Qd2",
+   "from": "d1",
+   "to": "d2",
+   "fen": "rnb1kb1r/1p3ppp/pq1ppn2/6B1/3NPP2/2N5/PPPQ2PP/R3KB1R b KQkq - 2 8",
+   "thoughts": "Qd2 supports the knight on d4 and prepares queenside castling. If Black captures b2, Rb1 gains a tempo against the queen—a standard idea in the Najdorf’s Poisoned Pawn variation.\n\nFinal Answer: Qd2",
+   "time": 12.507,
+   "check": false
+  },
+  {
+   "ply": 16,
+   "number": 8,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qxb2",
+   "from": "b6",
+   "to": "b2",
+   "fen": "rnb1kb1r/1p3ppp/p2ppn2/6B1/3NPP2/2N5/PqPQ2PP/R3KB1R w KQkq - 0 9",
+   "thoughts": "The position arises from the sharp and deeply analyzed **Poisoned Pawn Variation** of the Sicilian Defense, Najdorf Variation (1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8. Qd2). \n\nBy playing 8. Qd2, White offers the b2-pawn in exchange for rapid piece activity and an attack against Black's king. Black's most critical, principle-testing, and theoretically established continuation is to accept the gambit by capturing on b2, attacking the rook on a1 and forcing White to respond before continuing with development.\n\nTherefore, the best and most principled move is to take the pawn.\n\nFinal Answer: Qxb2",
+   "time": 4.181,
+   "check": false
+  },
+  {
+   "ply": 17,
+   "number": 9,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Rb1",
+   "from": "a1",
+   "to": "b1",
+   "fen": "rnb1kb1r/1p3ppp/p2ppn2/6B1/3NPP2/2N5/PqPQ2PP/1R2KB1R b Kkq - 1 9",
+   "thoughts": "Rb1 activates the a1-rook with tempo, attacking Black’s queen on b2. It preserves White’s strong central presence and is the main theoretical continuation in this Poisoned Pawn position.\n\nFinal Answer: Rb1",
+   "time": 9.124,
+   "check": false
+  },
+  {
+   "ply": 18,
+   "number": 9,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qa3",
+   "from": "b2",
+   "to": "a3",
+   "fen": "rnb1kb1r/1p3ppp/p2ppn2/6B1/3NPP2/q1N5/P1PQ2PP/1R2KB1R w Kkq - 2 10",
+   "thoughts": "In this well-known position from the Poisoned Pawn Variation of the Sicilian Najdorf, Black's queen on $b2$ is under direct attack by White's rook on $b1$. \n\nThe only safe and theoretically best retreat square for the queen is **$a3$**, which preserves the queen, keeps pressure on White's queenside, and prepares further development.\n\nFinal Answer: Qa3",
+   "time": 4.207,
+   "check": false
+  },
+  {
+   "ply": 19,
+   "number": 10,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "e5",
+   "from": "e4",
+   "to": "e5",
+   "fen": "rnb1kb1r/1p3ppp/p2ppn2/4P1B1/3N1P2/q1N5/P1PQ2PP/1R2KB1R b Kkq - 0 10",
+   "thoughts": "The thematic **e5** advance attacks the f6-knight and challenges Black’s center while its king remains uncastled and its queen is far from the defense.\n\nFinal Answer: e5",
+   "time": 12.168,
+   "check": false
+  },
+  {
+   "ply": 20,
+   "number": 10,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "dxe5",
+   "from": "d6",
+   "to": "e5",
+   "fen": "rnb1kb1r/1p3ppp/p3pn2/4p1B1/3N1P2/q1N5/P1PQ2PP/1R2KB1R w Kkq - 0 11",
+   "thoughts": "In this position, we have reached the main line of the Sicilian Defense: Najdorf Variation, Poisoned Pawn Variation (1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8. Qd2 Qxb2 9. Rb1 Qa3 10. e5).\n\nThe critical and most tested theoretical continuation for Black is to accept the central pawn tension and eliminate White's e-pawn with **10... dxe5**, leading after 11. fxe5 to 11... Nfd7 with deeply analyzed, double-edged play.\n\nFinal Answer: dxe5",
+   "time": 3.679,
+   "check": false
+  },
+  {
+   "ply": 21,
+   "number": 11,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "fxe5",
+   "from": "f4",
+   "to": "e5",
+   "fen": "rnb1kb1r/1p3ppp/p3pn2/4P1B1/3N4/q1N5/P1PQ2PP/1R2KB1R b Kkq - 0 11",
+   "thoughts": "1. Black’s e5-pawn threatens the knight on d4.\n2. **fxe5** removes that pawn while attacking Black’s knight on f6, gaining a tempo.\n3. After the typical retreat **...Nfd7**, White can continue **Ne4**, maintaining active central pieces and attacking chances.\n\nFinal Answer: fxe5",
+   "time": 16.346,
+   "check": false
+  },
+  {
+   "ply": 22,
+   "number": 11,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Nfd7",
+   "from": "f6",
+   "to": "d7",
+   "fen": "rnb1kb1r/1p1n1ppp/p3p3/4P1B1/3N4/q1N5/P1PQ2PP/1R2KB1R w Kkq - 1 12",
+   "thoughts": "In this classical position of the Sicilian Najdorf, Poisoned Pawn Variation (6. Bg5 e6 7. f4 Qb6 8. Qd2 Qxb2 9. Rb1 Qa3 10. e5 dxe5 11. fxe5), the knight on f6 is attacked. \n\nThe standard and theoretically strongest reply is to retreat the knight to **d7**, defending against immediate threats and preparing to put pressure on White's e5-pawn while keeping the bishop on c8 active along the c8-h3 diagonal.\n\nFinal Answer: Nfd7",
+   "time": 4.037,
+   "check": false
+  },
+  {
+   "ply": 23,
+   "number": 12,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Ne4",
+   "from": "c3",
+   "to": "e4",
+   "fen": "rnb1kb1r/1p1n1ppp/p3p3/4P1B1/3NN3/q7/P1PQ2PP/1R2KB1R b Kkq - 2 12",
+   "thoughts": "White is two pawns down, so maintaining the initiative is crucial. **Ne4** centralizes the c3-knight and introduces potential checks on d6 and f6, increasing pressure on Black’s uncastled king.\n\nFinal Answer: Ne4",
+   "time": 20.973,
+   "check": false
+  },
+  {
+   "ply": 24,
+   "number": 12,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "h6",
+   "from": "h7",
+   "to": "h6",
+   "fen": "rnb1kb1r/1p1n1pp1/p3p2p/4P1B1/3NN3/q7/P1PQ2PP/1R2KB1R w Kkq - 0 13",
+   "thoughts": "To determine the strongest move for Black in this critical position of the Sicilian Defense (Najdorf Variation, Poisoned Pawn line):\n\n1. **Analyze the Threats:** White has mobilized quickly with active knights and open lines against Black's king. White's knight on `e4` eyes `d6`, and White aims to create threats along the b-file and d-file.\n2. **Evaluate Candidate Moves:**\n   - `12... h6`: The main line and historically the strongest theoretical response. It immediately challenges White's bishop on `g5`, which is pinning Black's knight/controlling key dark squares, while preparing piece coordination and king safety.\n   - `12... Qxa2`: Grabbing a second pawn is playable but allows White immediate play with `13. Rd1`, giving White dangerous attacking momentum without resolving the tension on `g5`.\n\nTherefore, the best and most principled move is **h6**, putting the question to White's bishop before consolidating the extra material.\n\nFinal Answer: h6",
+   "time": 5.849,
+   "check": false
+  },
+  {
+   "ply": 25,
+   "number": 13,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Bh4",
+   "from": "g5",
+   "to": "h4",
+   "fen": "rnb1kb1r/1p1n1pp1/p3p2p/4P3/3NN2B/q7/P1PQ2PP/1R2KB1R b Kkq - 1 13",
+   "thoughts": "Black’s h6-pawn attacks the bishop on g5. Retreating to h4 preserves the bishop and White’s active central knights, while keeping Bg3 available. Against ...Qxa2, White can continue Rd1, developing with pressure along the d-file.\n\nFinal Answer: Bh4",
+   "time": 45.363,
+   "check": false
+  },
+  {
+   "ply": 26,
+   "number": 13,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qxa2",
+   "from": "a3",
+   "to": "a2",
+   "fen": "rnb1kb1r/1p1n1pp1/p3p2p/4P3/3NN2B/8/q1PQ2PP/1R2KB1R w Kkq - 0 14",
+   "thoughts": "In the Poisoned Pawn Variation of the Sicilian Najdorf, Black's most critical and theoretically sound move here is to capture the pawn on a2 with the queen, hitting the rook on b1 and gaining another tempo/material advantage.\n\n13...Qxa2 forces White to address the attacked rook (typically with 14. Rd1), after which Black can centralize the queen with 14...Qd5.\n\nFinal Answer: Qxa2",
+   "time": 4.288,
+   "check": false
+  },
+  {
+   "ply": 27,
+   "number": 14,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Rd1",
+   "from": "b1",
+   "to": "d1",
+   "fen": "rnb1kb1r/1p1n1pp1/p3p2p/4P3/3NN2B/8/q1PQ2PP/3RKB1R b Kkq - 1 14",
+   "thoughts": "Black’s queen on a2 attacks the rook on b1, so I need to address that threat. **14. Rd1** saves the rook while placing it on the central d-file and supporting the queen on d2. It also preserves White’s active knights and prepares to develop the f1-bishop and castle.\n\nFinal Answer: Rd1",
+   "time": 25.414,
+   "check": false
+  },
+  {
+   "ply": 28,
+   "number": 14,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qd5",
+   "from": "a2",
+   "to": "d5",
+   "fen": "rnb1kb1r/1p1n1pp1/p3p2p/3qP3/3NN2B/8/2PQ2PP/3RKB1R w Kkq - 2 15",
+   "thoughts": "In the famous Poisoned Pawn variation of the Sicilian Najdorf (after 13. Bh4 Qxa2 14. Rd1), Black's most critical and theoretically sound move is to centralize the queen with **14... Qd5**. \n\nThis move attacks White's knight on e4 and exerts pressure on the e5-pawn, forcing White to defend while allowing Black to regain tempo to develop their pieces.\n\nFinal Answer: Qd5",
+   "time": 4.045,
+   "check": false
+  },
+  {
+   "ply": 29,
+   "number": 15,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Qe3",
+   "from": "d2",
+   "to": "e3",
+   "fen": "rnb1kb1r/1p1n1pp1/p3p2p/3qP3/3NN2B/4Q3/2P3PP/3RKB1R b Kkq - 3 15",
+   "thoughts": "Qe3 reinforces the e4-knight and prepares Be2 followed by kingside castling, maintaining White’s development advantage and attacking chances.\n\nFinal Answer: Qe3",
+   "time": 25.858,
+   "check": false
+  },
+  {
+   "ply": 30,
+   "number": 15,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qxe5",
+   "from": "d5",
+   "to": "e5",
+   "fen": "rnb1kb1r/1p1n1pp1/p3p2p/4q3/3NN2B/4Q3/2P3PP/3RKB1R w Kkq - 0 16",
+   "thoughts": "In this well-known theoretical position of the Sicilian Najdorf Poisoned Pawn Variation, Black's most critical and strongest move is to accept the central pawn sacrifice on e5. This eliminates White's dangerous advanced pawn, centralizes the queen, and pins the knight on e4 against the queen on e3.\n\nFinal Answer: Qxe5",
+   "time": 4.955,
+   "check": false
+  },
+  {
+   "ply": 31,
+   "number": 16,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Be2",
+   "from": "f1",
+   "to": "e2",
+   "fen": "rnb1kb1r/1p1n1pp1/p3p2p/4q3/3NN2B/4Q3/2P1B1PP/3RK2R b Kkq - 1 16",
+   "thoughts": "1. White is three pawns down, so rapid development and pressure on Black’s uncastled king are essential.\n2. **16. Be2** develops the last minor piece and prepares kingside castling while keeping both knights centrally placed.\n3. It also prepares **Bg3**, attacking Black’s queen with tempo. Moving the bishop from f1 to e2 is unobstructed and leaves White’s king safe.\n\nFinal Answer: Be2",
+   "time": 40.669,
+   "check": false
+  },
+  {
+   "ply": 32,
+   "number": 16,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Bc5",
+   "from": "f8",
+   "to": "c5",
+   "fen": "rnb1k2r/1p1n1pp1/p3p2p/2b1q3/3NN2B/4Q3/2P1B1PP/3RK2R w Kkq - 2 17",
+   "thoughts": "To determine Black's best move, let's analyze the position:\n\nThis position arises from the sharp **Sicilian Najdorf, Poisoned Pawn Variation**. Black is two pawns ahead, but White has a lead in development and centralized pieces aiming at Black's uncastled king. \n\nThe standard and most accurate theoretical response is **16... Bc5**, which:\n1. Develops the dark-squared bishop with tempo.\n2. Pins White's knight on $d4$ to the queen on $e3$, neutralizing much of White's immediate central pressure.\n3. Prepares to castle kingside ($...O-O$) to secure the king.\n\nFinal Answer: Bc5",
+   "time": 6.491,
+   "check": false
+  },
+  {
+   "ply": 33,
+   "number": 17,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Bg3",
+   "from": "h4",
+   "to": "g3",
+   "fen": "rnb1k2r/1p1n1pp1/p3p2p/2b1q3/3NN3/4Q1B1/2P1B1PP/3RK2R b Kkq - 3 17",
+   "thoughts": "**17. Bg3** attacks Black’s queen along the g3–f4–e5 diagonal, gaining time while preserving White’s centralized knights. If Black responds with the counterattack **17...Bxd4**, White can play **18. Rxd4**, keeping the pressure on Black’s uncastled king.\n\nFinal Answer: Bg3",
+   "time": 72.353,
+   "check": false
+  },
+  {
+   "ply": 34,
+   "number": 17,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Bxd4",
+   "from": "c5",
+   "to": "d4",
+   "fen": "rnb1k2r/1p1n1pp1/p3p2p/4q3/3bN3/4Q1B1/2P1B1PP/3RK2R w Kkq - 0 18",
+   "thoughts": "To find the best move for Black, we analyze the current position:\n\n1. **Position Analysis**: \n   - Black is currently two pawns ahead in a sharp line of the Sicilian Najdorf Poisoned Pawn variation.\n   - White just played `17. Bg3`, attacking Black's queen on `e5`.\n   - White's knight on `d4` is a critical attacking piece eyeing squares like `d6` in conjunction with `Ne4`.\n\n2. **Candidate Moves**:\n   - **`17... Bxd4`**: Directly eliminates the centralized knight on `d4`. \n     - If White recaptures with `18. Qxd4`, Black is happy to trade queens with `18... Qxd4 19. Rxd4`, consolidating the extra pawns into a winning endgame.\n     - If White plays `18. Rxd4`, Black continues with `18... Qa5+ 19. Rd2 O-O`, completing kingside development while safely retaining the material advantage.\n   - **`17... Qd5`**: Allows White to gain further tempos with moves like `18. c4`.\n\nTherefore, **`17... Bxd4`** is the standard, concrete, and strongest theoretical continuation for Black.\n\nFinal Answer: Bxd4",
+   "time": 14.333,
+   "check": false
+  },
+  {
+   "ply": 35,
+   "number": 18,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Rxd4",
+   "from": "d1",
+   "to": "d4",
+   "fen": "rnb1k2r/1p1n1pp1/p3p2p/4q3/3RN3/4Q1B1/2P1B1PP/4K2R b Kkq - 0 18",
+   "thoughts": "White’s queen is attacked by the bishop on d4. **18.Rxd4!** removes that bishop while keeping the queen active and centralizing the rook.\n\nBlack cannot profitably capture the rook: **18...Qxd4 19.Qxd4** wins Black’s queen for a rook. Against **18...Qa5+**, White can play **19.c3**, blocking the check and supporting the rook.\n\nFinal Answer: Rxd4",
+   "time": 67.389,
+   "check": false
+  },
+  {
+   "ply": 36,
+   "number": 18,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qa5+",
+   "from": "e5",
+   "to": "a5",
+   "fen": "rnb1k2r/1p1n1pp1/p3p2p/q7/3RN3/4Q1B1/2P1B1PP/4K2R w Kkq - 1 19",
+   "thoughts": "To determine the strongest move for Black, let's analyze the current board position:\n\n1. **Current Tactical Situation:** \n   - Black's queen on `e5` is under double attack by White's rook on `d4` and bishop on `g3`.\n   - Black must address the threat to the queen while trying to maintain coordination and king safety.\n\n2. **Evaluating Options:**\n   - **`18... Qa5+`**: This move slides the queen along the 5th rank to `a5`, escaping both attacks while delivering a tempo-gaining check to the white king on `e1` along the `a5-e1` diagonal. This is a deeply analyzed theoretical move in the Poisoned Pawn Variation of the Sicilian Najdorf, allowing Black time to castle on the next move (e.g., after `19. c3` or `19. Rd2`, Black can play `19... O-O`).\n\nTherefore, moving the queen to `a5` with check is the standard and strongest response.\n\nFinal Answer: Qa5+",
+   "time": 8.224,
+   "check": true
+  },
+  {
+   "ply": 37,
+   "number": 19,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "c3",
+   "from": "c2",
+   "to": "c3",
+   "fen": "rnb1k2r/1p1n1pp1/p3p2p/q7/3RN3/2P1Q1B1/4B1PP/4K2R b Kkq - 0 19",
+   "thoughts": "Black’s queen checks along a5–b4–c3–d2–e1. **19. c3** blocks that diagonal while keeping the rook on d4 and knight on e4 active. It also preserves White’s castling rights and prepares ideas such as Nd6+ and rapid kingside development.\n\nFinal Answer: c3",
+   "time": 34.584,
+   "check": false
+  },
+  {
+   "ply": 38,
+   "number": 19,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "O-O",
+   "from": "e8",
+   "to": "g8",
+   "fen": "rnb2rk1/1p1n1pp1/p3p2p/q7/3RN3/2P1Q1B1/4B1PP/4K2R w K - 1 20",
+   "thoughts": "To determine the strongest move for Black, we analyze the current position:\n\n1. **King Safety**: Black's king is currently stuck in the center on e8, and White threatens strong jumping squares like `Nd6+`, increasing tactical pressure. Castling gets the king to safety immediately.\n2. **Standard Theory**: This position is a well-known tabiya in the Sicilian Najdorf, Poisoned Pawn Variation (6. Bg5 e6 7. f4 Qb6). After White plays 19. c3 to block the check on the a5-e1 diagonal, Black's standard and strongest continuation is to immediately castle kingside.\n\nTherefore, the best and most principled move is **O-O**.\n\nFinal Answer: O-O",
+   "time": 5.491,
+   "check": false
+  },
+  {
+   "ply": 39,
+   "number": 20,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "O-O",
+   "from": "e1",
+   "to": "g1",
+   "fen": "rnb2rk1/1p1n1pp1/p3p2p/q7/3RN3/2P1Q1B1/4B1PP/5RK1 b - - 2 20",
+   "thoughts": "Castling is legal: f1 and g1 are empty and unattacked. It brings the h1-rook into play on the semi-open f-file, moves the king off Black’s queen diagonal, and unpins the c3-pawn while preserving White’s active central pieces.\n\nFinal Answer: O-O",
+   "time": 80.064,
+   "check": false
+  },
+  {
+   "ply": 40,
+   "number": 20,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Nc6",
+   "from": "b8",
+   "to": "c6",
+   "fen": "r1b2rk1/1p1n1pp1/p1n1p2p/q7/3RN3/2P1Q1B1/4B1PP/5RK1 w - - 3 21",
+   "thoughts": "To determine Black's strongest move in this position, let's evaluate the state of the board:\n\n1. **Material and King Safety**: Black is two pawns ahead, but White has superior piece activity and potential attacking lines towards Black's kingside.\n2. **Piece Development**: Black's queenside (specifically the knight on `b8` and bishop on `c8`) needs development, and the rook on `a8` needs to be activated.\n3. **Tactical Needs**: Black must address White's centralized pieces, particularly the rook on `d4` and knight on `e4`.\n\nThe move **20... Nc6** develops the queenside knight to an active square, directly attacks White's rook on `d4` gaining a tempo, and helps connect Black's pieces to neutralize White's initiative.\n\nFinal Answer: Nc6",
+   "time": 6.012,
+   "check": false
+  },
+  {
+   "ply": 41,
+   "number": 21,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Nf6+",
+   "from": "e4",
+   "to": "f6",
+   "fen": "r1b2rk1/1p1n1pp1/p1n1pN1p/q7/3R4/2P1Q1B1/4B1PP/5RK1 b - - 4 21",
+   "thoughts": "The forcing move is **21. Nf6+**, bringing the knight into the attack with check.\n\n- After **21...gxf6**, White has **22. Rg4+**, opening a dangerous kingside attack.\n- After **21...Nxf6**, **22. Rxf6** creates strong threats against h6; capturing that rook again allows **Rg4+**.\n\nFinal Answer: Nf6+",
+   "time": 258.542,
+   "check": true
+  },
+  {
+   "ply": 42,
+   "number": 21,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Nxf6",
+   "from": "d7",
+   "to": "f6",
+   "fen": "r1b2rk1/1p3pp1/p1n1pn1p/q7/3R4/2P1Q1B1/4B1PP/5RK1 w - - 0 22",
+   "thoughts": "To respond to White's check on f6, Black has three legal options: `...Kh8`, `...gxf6`, and `...Nxf6`.\n\n1. **21...Kh8?** loses to **22. Rh4!**, threatening a devastating sacrifice on h6 with mating threats.\n2. **21...gxf6?** fatally weakens the kingside structure and allows **22. Rg4+** or **22. Qxh6**, leading to a decisive attack for White.\n3. **21...Nxf6** is the only resilient defense. Black eliminates the checking knight and prepares to meet **22. Rxf6** with the active defensive resource **22...Qg5**, challenging the white queen and countering White's attack.\n\nFinal Answer: Nxf6",
+   "time": 5.365,
+   "check": false
+  },
+  {
+   "ply": 43,
+   "number": 22,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Rxf6",
+   "from": "f1",
+   "to": "f6",
+   "fen": "r1b2rk1/1p3pp1/p1n1pR1p/q7/3R4/2P1Q1B1/4B1PP/6K1 b - - 0 22",
+   "thoughts": "The f6-knight is a key defender of Black’s king. **22.Rxf6!** removes it while keeping the d4-rook ready to join the attack.\n\nIf Black accepts with **22...gxf6**, then **23.Qxh6** creates serious mating threats. After **23...Qg5**, White has **24.Rg4!**, pinning the queen against the king; **24...Qxg4 25.Bxg4** leaves White’s attack alive.\n\nFinal Answer: Rxf6",
+   "time": 69.067,
+   "check": false
+  },
+  {
+   "ply": 44,
+   "number": 22,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Nxd4",
+   "from": "c6",
+   "to": "d4",
+   "fen": "r1b2rk1/1p3pp1/p3pR1p/q7/3n4/2P1Q1B1/4B1PP/6K1 w - - 0 23",
+   "thoughts": "To find the strongest move for Black, let's evaluate the position:\n\nWhite has just sacrificed a rook on `f6` with `22. Rxf6`, aiming to break open Black's kingside. However, Black can simply eliminate White's other active rook with **22... Nxd4**:\n\n- Capturing on `d4` wins material immediately while leaving White's rook on `f6` still under attack.\n- If White recaptures with `23. cxd4` or `23. Qxd4`, Black can safely take the rook on `f6` with `23... gxf6` (or respond defensively with `23... Qg5`), followed by consolidating with an overwhelming material advantage.\n- If White tries counter-attacking lines like `23. Be5`, Black has `23... Nf5` shutting down the attack completely.\n\nFinal Answer: Nxd4",
+   "time": 6.562,
+   "check": false
+  },
+  {
+   "ply": 45,
+   "number": 23,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Bd3",
+   "from": "e2",
+   "to": "d3",
+   "fen": "r1b2rk1/1p3pp1/p3pR1p/q7/3n4/2PBQ1B1/6PP/6K1 b - - 1 23",
+   "thoughts": "The rook on f6 is under attack, but White is already materially behind, so maintaining the kingside attack is critical.\n\n**23.Bd3** brings the bishop onto the b1–h7 diagonal and removes it from the knight’s threatened capture on e2 with check. It also strengthens threats involving Qxh6 against Black’s king.\n\nFinal Answer: Bd3",
+   "time": 184.923,
+   "check": false
+  },
+  {
+   "ply": 46,
+   "number": 23,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Nf5",
+   "from": "d4",
+   "to": "f5",
+   "fen": "r1b2rk1/1p3pp1/p3pR1p/q4n2/8/2PBQ1B1/6PP/6K1 w - - 2 24",
+   "thoughts": "To find the best move for Black, let's assess the current position:\n\n1. **Material & Tactics**: Black is already up material, but White is trying to build an attack on the kingside against h6/g7 using the bishop on d3 and the rook on f6.\n2. **Threats**: White's rook on f6 is aggressive, and White is eyeing the light-squared diagonal toward h7. Meanwhile, Black's knight on d4 is attacked.\n3. **Black's Solution**: Playing **23... Nf5** brilliantly solves all defensive concerns simultaneously:\n   - It blocks the $b1-h7$ diagonal, eliminating White's attacking threats against the Black king.\n   - It simultaneously attacks White's queen on e3 and the rook on f6.\n   - It forces White to trade into a completely lost endgame where Black retains a massive material advantage.\n\nFinal Answer: Nf5",
+   "time": 8.07,
+   "check": false
+  },
+  {
+   "ply": 47,
+   "number": 24,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Bxf5",
+   "from": "d3",
+   "to": "f5",
+   "fen": "r1b2rk1/1p3pp1/p3pR1p/q4B2/8/2P1Q1B1/6PP/6K1 b - - 0 24",
+   "thoughts": "The knight on f5 attacks my queen and blocks White’s attacking lines. **24. Bxf5** removes it while preserving the active rook on f6.\n\nAfter the natural **24...exf5**, **25. Be5** supports the rook and creates dangerous threats against Black’s kingside, including **Rxh6**.\n\nFinal Answer: Bxf5",
+   "time": 140.418,
+   "check": false
+  },
+  {
+   "ply": 48,
+   "number": 24,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "exf5",
+   "from": "e6",
+   "to": "f5",
+   "fen": "r1b2rk1/1p3pp1/p4R1p/q4p2/8/2P1Q1B1/6PP/6K1 w - - 0 25",
+   "thoughts": "To find the strongest move for Black, let's evaluate the position:\n\n1. **Material and Threats**: White has just played `24. Bxf5`, attempting to break open Black's kingside and distract from the attack on the `f6` rook. \n2. **Analysis of Candidate Moves**:\n   - `24... exf5`: Recaptures the bishop while keeping the pawn structure around the king relatively solid. White's rook on `f6` remains attacked by the `g7` pawn and has no dangerous squares or sacrifice follow-ups (e.g., if `25. Rxh6 gxh6 26. Qxh6 Qa1+` followed by picking up `c3` and consolidating easily).\n   - `24... gxf6`: Opens the g-file towards the black king unnecessarily, giving White attacking chances after `25. Qxh6`.\n\nTherefore, `24... exf5` is the cleanest and most decisive continuation, securing a completely winning material advantage.\n\nFinal Answer: exf5",
+   "time": 10.714,
+   "check": false
+  },
+  {
+   "ply": 49,
+   "number": 25,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Rxh6",
+   "from": "f6",
+   "to": "h6",
+   "fen": "r1b2rk1/1p3pp1/p6R/q4p2/8/2P1Q1B1/6PP/6K1 b - - 0 25",
+   "thoughts": "25. **Rxh6!** removes a key defender and opens Black’s kingside.\n\nAfter **25...gxh6 26.Qxh6**, White threatens **Qg6+**, followed by **Be5#** if Black does not defend. Black must respond accurately, typically with **...f6**, rather than consolidate the extra material.\n\nFinal Answer: Rxh6",
+   "time": 71.418,
+   "check": false
+  },
+  {
+   "ply": 50,
+   "number": 25,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qa1+",
+   "from": "a5",
+   "to": "a1",
+   "fen": "r1b2rk1/1p3pp1/p6R/5p2/8/2P1Q1B1/6PP/q5K1 w - - 1 26",
+   "thoughts": "To find the best move for Black, we analyze the tactical situation:\n\nWhite has just played **25. Rxh6**, sacrificing the exchange on h6 in an attempt to open lines against Black's king. However, Black can seize immediate tactical control:\n\n**25...Qa1+!** forces White's response and severely disrupts White's attack:\n- If White plays **26. Be1**, Black can simply capture the rook with **26...gxh6** (since **27. Qxh6** is impossible due to **27...Qxe1#**), leaving Black up massive material.\n- If White plays **26. Kf2**, Black plays **26...gxh6 27. Qxh6 Qxc3**, controlling the critical diagonal and allowing the queen to return to **g7** to stop any perpetual checks.\n- If White plays **26. Qe1**, Black trades queens with **26...Qxe1+ 27. Bxe1 gxh6** and remains a full rook ahead in an easily winning endgame.\n\nFinal Answer: Qa1+",
+   "time": 9.075,
+   "check": true
+  },
+  {
+   "ply": 51,
+   "number": 26,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kf2",
+   "from": "g1",
+   "to": "f2",
+   "fen": "r1b2rk1/1p3pp1/p6R/5p2/8/2P1Q1B1/5KPP/q7 b - - 2 26",
+   "thoughts": "Black’s queen checks your king along the first rank. Moving to f2 is legal: Black’s f7-pawn blocks the f8-rook, and no other black piece attacks f2. This preserves your queen, rook, and bishop for the attack rather than interposing a piece on the queen’s line.\n\nFinal Answer: Kf2",
+   "time": 23.595,
+   "check": false
+  },
+  {
+   "ply": 52,
+   "number": 26,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qb2+",
+   "from": "a1",
+   "to": "b2",
+   "fen": "r1b2rk1/1p3pp1/p6R/5p2/8/2P1Q1B1/1q3KPP/8 w - - 3 27",
+   "thoughts": "To determine Black's strongest move in this position:\n\n1. Black is already significantly ahead in material, but White's rook on `h6` combined with the queen and dark-squared bishop creates potential kingside mating threats if Black is careless.\n2. Checking with the Queen via **26...Qb2+** forces White's king into an awkward square:\n   - If `27. Kf3`, Black can play `27...Bd7`, threatening to bring the bishop into the attack via `c6+` with a decisive advantage.\n   - If `27. Kf1`, Black continues with `27...Qb1+`, forcing White's bishop to block or king to move, allowing Black to cleanly capture the rook on `h6` or enter a completely winning endgame.\n   - If `27. Ke1`, Black plays `27...Qb1+` followed by bringing the rook to `d8+`.\n\nTherefore, **26...Qb2+** maintains the initiative, defends against White's threats, and secures a winning position.\n\nFinal Answer: Qb2+",
+   "time": 7.665,
+   "check": true
+  },
+  {
+   "ply": 53,
+   "number": 27,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kf3",
+   "from": "f2",
+   "to": "f3",
+   "fen": "r1b2rk1/1p3pp1/p6R/5p2/8/2P1QKB1/1q4PP/8 b - - 4 27",
+   "thoughts": "1. Black’s queen on b2 is checking along the second rank, so White must first escape check.\n2. **27. Kf3** is legal: f3 is not attacked by any black piece.\n3. This escapes the queen’s immediate checking line while keeping White’s queen, rook, and bishop actively placed for the kingside attack. Blocking with the queen would instead allow an unfavorable queen exchange.\n\nFinal Answer: Kf3",
+   "time": 58.12,
+   "check": false
+  },
+  {
+   "ply": 54,
+   "number": 27,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Bd7",
+   "from": "c8",
+   "to": "d7",
+   "fen": "r4rk1/1p1b1pp1/p6R/5p2/8/2P1QKB1/1q4PP/8 w - - 5 28",
+   "thoughts": "To find the strongest move for Black, let's analyze the position:\n\n1. **Material and Threats:** Black is already up an exchange and has an active queen on b2. White's pieces (Rook on h6, Queen on e3, Bishop on g3, King on f3) are awkwardly placed and vulnerable.\n2. **Tactical Considerations:** Capturing the rook with `27... gxh6` allows White some counterplay and potential perpetual check ideas via `28. Be5` and `Qxh6`.\n3. **Black's Best Plan:** Developing the light-squared bishop with **`27... Bd7`** immediately creates decisive threats along the long diagonal (`...Bc6+`), targeting White's exposed king on f3. After `27... Bd7`, White has no adequate defense against `...Bc6+` winning further material and neutralizing any attack.\n\nFinal Answer: Bd7",
+   "time": 7.039,
+   "check": false
+  },
+  {
+   "ply": 55,
+   "number": 28,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Qg5",
+   "from": "e3",
+   "to": "g5",
+   "fen": "r4rk1/1p1b1pp1/p6R/5pQ1/8/2P2KB1/1q4PP/8 b - - 6 28",
+   "thoughts": "1. White needs active threats against Black’s king to compensate for the material deficit.\n2. **Qg5** is legal: the queen moves from e3 through the empty f4 square to g5.\n3. It threatens **Qh5**, followed by **Rh8#**, with the queen protecting the rook on h8. If Black weakens the kingside with ...g6, **Be5** creates another dangerous mating threat along the e5–h8 diagonal.\n\nFinal Answer: Qg5",
+   "time": 200.415,
+   "check": false
+  },
+  {
+   "ply": 56,
+   "number": 28,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Bc6+",
+   "from": "d7",
+   "to": "c6",
+   "fen": "r4rk1/1p3pp1/p1b4R/5pQ1/8/2P2KB1/1q4PP/8 w - - 7 29",
+   "thoughts": "To find the strongest move for Black, we analyze the current position:\n\n1. Black is currently up significant material, but White is trying to generate counterplay against Black's king on the h-file and g-file.\n2. Black can seize the initiative with the forcing check **28... Bc6+**, activating the bishop with tempo:\n   - If White plays **29. Rxc6**, the dangerous rook on h6 is removed, and after **29... bxc6**, Black is completely winning with no counterplay for White.\n   - If White plays **29. Kf4**, Black has **29... Qd2+**, winning White's queen on g5 via a skewer/fork.\n   - If White plays **29. Ke3**, Black brings the other rook into the attack with **29... Rfe8+**, leading to a swift checkmate.\n\nTherefore, **28... Bc6+** shuts down White's attack and decisively wins the game.\n\nFinal Answer: Bc6+",
+   "time": 7.544,
+   "check": true
+  },
+  {
+   "ply": 57,
+   "number": 29,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kf4",
+   "from": "f3",
+   "to": "f4",
+   "fen": "r4rk1/1p3pp1/p1b4R/5pQ1/5K2/2P3B1/1q4PP/8 b - - 8 29",
+   "thoughts": "The bishop on c6 is checking along c6–d5–e4–f3. **29.Kf4!** escapes legally while keeping White’s queen, rook, and bishop poised for the kingside attack. Against the natural **29...Qd2+**, White can continue **30.Kxf5**, rather than retreating or sacrificing the rook with Rxc6.\n\nFinal Answer: Kf4",
+   "time": 83.074,
+   "check": false
+  },
+  {
+   "ply": 58,
+   "number": 29,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qd2+",
+   "from": "b2",
+   "to": "d2",
+   "fen": "r4rk1/1p3pp1/p1b4R/5pQ1/5K2/2P3B1/3q2PP/8 w - - 9 30",
+   "thoughts": "To find the strongest move for Black, let's analyze the position:\n\n1. White's King is on the exposed square **f4**, lined up on the same diagonal ($d2-e3-f4-g5$) as the White Queen on **g5**.\n2. Black's Queen on **b2** has a clear path along the second rank to move to **d2**.\n3. Playing **29... Qd2+** delivers a decisive check and skewers the White King on **f4** to the Queen on **g5**. White cannot interpose on **e3**, forcing the King to move and allowing Black to capture the Queen on the next move.\n\nFinal Answer: Qd2+",
+   "time": 7.174,
+   "check": true
+  },
+  {
+   "ply": 59,
+   "number": 30,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kxf5",
+   "from": "f4",
+   "to": "f5",
+   "fen": "r4rk1/1p3pp1/p1b4R/5KQ1/8/2P3B1/3q2PP/8 b - - 0 30",
+   "thoughts": "Black’s queen checks along d2–e3–f4. The only legal replies are **Ke5** and **Kxf5**.\n\nAfter **Ke5**, Black can play **...Qd5+**, forcing the king back to f4. **Kxf5** instead removes a pawn and keeps White’s attack active. The capture is safe: Black’s f7-pawn blocks the rook on f8.\n\nFinal Answer: Kxf5",
+   "time": 44.502,
+   "check": false
+  },
+  {
+   "ply": 60,
+   "number": 30,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qxg5+",
+   "from": "d2",
+   "to": "g5",
+   "fen": "r4rk1/1p3pp1/p1b4R/5Kq1/8/2P3B1/6PP/8 w - - 0 31",
+   "thoughts": "To find the strongest move for Black, let's analyze the position:\n\n1. White's King is on $f5$, and the Queen on $g5$ is unprotected (the Rook on $h6$ is on the 6th rank, so it does not protect $g5$).\n2. Black can simply play **30... Qxg5+**, capturing White's queen with check. \n3. After White's forced response **31. Kxg5**, Black plays **31... gxh6+**, winning White's rook with check as well. \n\nThis liquidates into an endgame where Black is ahead by two full rooks and a bishop against a lone bishop, completely eliminating any White counterplay.\n\nFinal Answer: Qxg5+",
+   "time": 7.443,
+   "check": true
+  },
+  {
+   "ply": 61,
+   "number": 31,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kxg5",
+   "from": "f5",
+   "to": "g5",
+   "fen": "r4rk1/1p3pp1/p1b4R/6K1/8/2P3B1/6PP/8 b - - 0 31",
+   "thoughts": "Black’s queen on g5 checks the king on f5. The queen is undefended, and no other black piece attacks g5, so capturing it is legal and wins Black’s strongest piece.\n\nFinal Answer: Kxg5",
+   "time": 14.815,
+   "check": false
+  },
+  {
+   "ply": 62,
+   "number": 31,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "gxh6+",
+   "from": "g7",
+   "to": "h6",
+   "fen": "r4rk1/1p3p2/p1b4p/6K1/8/2P3B1/6PP/8 w - - 0 32",
+   "thoughts": "To find the best move, we evaluate the current board state:\n\n1. **Material count**: Black is already ahead in material, and White's rook on **h6** is currently undefended and attacked by the pawn on **g7**.\n2. **Tactics**: Black can play **31...gxh6+**, winning a full rook while delivering check to White's king on **g5**.\n3. After the king moves, Black will be up two rooks against a single bishop, which is a completely winning endgame.\n\nFinal Answer: gxh6+",
+   "time": 3.784,
+   "check": true
+  },
+  {
+   "ply": 63,
+   "number": 32,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kxh6",
+   "from": "g5",
+   "to": "h6",
+   "fen": "r4rk1/1p3p2/p1b4K/8/8/2P3B1/6PP/8 b - - 0 32",
+   "thoughts": "White is in check from the pawn on h6. Capturing it with the king is legal because no Black piece attacks h6. This removes the checking pawn and reduces Black’s material advantage.\n\nFinal Answer: Kxh6",
+   "time": 21.051,
+   "check": false
+  },
+  {
+   "ply": 64,
+   "number": 32,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Rae8",
+   "from": "a8",
+   "to": "e8",
+   "fen": "4rrk1/1p3p2/p1b4K/8/8/2P3B1/6PP/8 w - - 1 33",
+   "thoughts": "To capitalize on Black's decisive material advantage, Black should activate the idle rook and coordinate an attack against the exposed White king. \n\n**32... Rae8** brings the a8-rook into the game along the open e-file, threatening moves like `...Re6+` and `...Re4`. If White attempts `33. Bd6`, Black immediately wins the bishop with `33... Re6+` (discovered attack on d6).\n\nFinal Answer: Rae8",
+   "time": 6.785,
+   "check": false
+  },
+  {
+   "ply": 65,
+   "number": 33,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Bf4",
+   "from": "g3",
+   "to": "f4",
+   "fen": "4rrk1/1p3p2/p1b4K/8/5B2/2P5/6PP/8 b - - 2 33",
+   "thoughts": "White is down two rooks, so preserving the bishop is important. **Bd6** attacks the f8-rook but allows **...Re6+**, followed by **...Rxd6**. **Bf4** keeps the bishop active without exposing it to that tactic, while leaving g5 and h5 available to the king.\n\nFinal Answer: Bf4",
+   "time": 54.925,
+   "check": false
+  },
+  {
+   "ply": 66,
+   "number": 33,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Re6+",
+   "from": "e8",
+   "to": "e6",
+   "fen": "5rk1/1p3p2/p1b1r2K/8/5B2/2P5/6PP/8 w - - 3 34",
+   "thoughts": "To determine the best move for Black, let's assess the current position:\n\n1. **Material and Safety**: Black is up a full rook and comfortably winning. The White king is isolated and vulnerable on `h6`.\n2. **Key Threats and Tactics**: \n   - Playing **33... Re6+** immediately activates the e8-rook with check, forcing the White king further away (`h5` or `g5`) and allowing Black to coordinate the rooks and bishop to either create mating nets or win more pawns (e.g., `g2`).\n\nTherefore, playing with check to restrict White's king and simplify the path to victory is the strongest and most direct approach.\n\nFinal Answer: Re6+",
+   "time": 5.536,
+   "check": true
+  },
+  {
+   "ply": 67,
+   "number": 34,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kg5",
+   "from": "h6",
+   "to": "g5",
+   "fen": "5rk1/1p3p2/p1b1r3/6K1/5B2/2P5/6PP/8 b - - 4 34",
+   "thoughts": "The rook on e6 checks my king along the sixth rank. The legal escapes are 34.Kg5 and 34.Kh5; moving to g5 keeps the king away from the edge and offers more escape routes.\n\nFinal Answer: Kg5",
+   "time": 19.207,
+   "check": false
+  },
+  {
+   "ply": 68,
+   "number": 34,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Rg6+",
+   "from": "e6",
+   "to": "g6",
+   "fen": "5rk1/1p3p2/p1b3r1/6K1/5B2/2P5/6PP/8 w - - 5 35",
+   "thoughts": "To find the strongest move for Black, let's assess the position:\n\n1. **Material and Imbalance:** Black is up a full rook (two rooks and a bishop vs. one bishop) with an overwhelmingly winning position.\n2. **King Safety & Activity:** White's king is awkwardly placed on $g5$. Checking the king forces it into even more passive or vulnerable positions:\n   - If $35.\\text{ Kh4}$, Black can capture on $g2$ with the bishop ($35...\\text{Bxg2}$) or prepare mating nets.\n   - If $35.\\text{ Kh5}$, Black plays $35...\\text{Kh7}$ with unstoppable mating threats along the h-file ($\\text{Rh8+}$).\n   - If $35.\\text{ Kf5}$, Black plays $35...\\text{Re8}$ with decisive mating threats such as $\\text{Bd7\\#}$.\n\nTherefore, playing actively with check immediately tightens the net around White's king.\n\nFinal Answer: Rg6+",
+   "time": 6.152,
+   "check": true
+  },
+  {
+   "ply": 69,
+   "number": 35,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kf5",
+   "from": "g5",
+   "to": "f5",
+   "fen": "5rk1/1p3p2/p1b3r1/5K2/5B2/2P5/6PP/8 b - - 6 35",
+   "thoughts": "The rook on g6 is checking White’s king. Moving to f5 escapes the check and heads toward the center, reducing the risk of being trapped at the edge by Black’s rooks.\n\nFinal Answer: Kf5",
+   "time": 16.94,
+   "check": false
+  },
+  {
+   "ply": 70,
+   "number": 35,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Re8",
+   "from": "f8",
+   "to": "e8",
+   "fen": "4r1k1/1p3p2/p1b3r1/5K2/5B2/2P5/6PP/8 w - - 7 36",
+   "thoughts": "To find the strongest move for Black, we assess the position:\n\n1. **Material and King Safety:** Black has a decisive material advantage (two Rooks and a Bishop against a Bishop and three pawns). Furthermore, White's King is stranded on `f5`.\n2. **King Net / Checkmate Threat:** By playing **35... Re8**, Black takes control of the entire e-file (`e4`, `e5`, `e6`), completely trapping White's King with no legal flight squares (the g-file is sealed by the rook on `g6`).\n3. Black creates an unstoppable mating threat: **36... Bd7#**. White cannot prevent devastating material loss or mate.\n\nFinal Answer: Re8",
+   "time": 7.052,
+   "check": false
+  },
+  {
+   "ply": 71,
+   "number": 36,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Be5",
+   "from": "f4",
+   "to": "e5",
+   "fen": "4r1k1/1p3p2/p1b3r1/4BK2/8/2P5/6PP/8 b - - 8 36",
+   "thoughts": "White’s king has no legal move, and any pawn move allows **...Be4#**. Moving the bishop is essential.\n\n**Be5** frees f4 for the king and blocks the e-file while keeping the bishop protected. It also allows **Ke4** against **...Bd7+**, giving White a route out of the mating net.\n\nFinal Answer: Be5",
+   "time": 64.255,
+   "check": false
+  },
+  {
+   "ply": 72,
+   "number": 36,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Bd7+",
+   "from": "c6",
+   "to": "d7",
+   "fen": "4r1k1/1p1b1p2/p5r1/4BK2/8/2P5/6PP/8 w - - 9 37",
+   "thoughts": "To find the best move for Black, let's evaluate the position:\n\n1. **Material and King Safety**: Black is already up a full rook, and the White king is trapped on the vulnerable $f5$-square with very few legal escape squares.\n2. **Forcing Tactical Sequence**:\n   - Playing **36... Bd7+** gives check and forces the White king to move.\n   - White's king has only one legal move, **37. Kf4** (since $e4$ and $e6$ are controlled by the $e8$-rook, $g4$ and $g5$ are controlled by the $g6$-rook, and $f6$ is controlled by the bishop).\n   - After **37. Kf4**, Black continues with **37... Rg4+ 38. Kf3 Rxe5**, cleanly winning White's only remaining active piece (the bishop on $e5$) and completely ending any resistance.\n\nFinal Answer: Bd7+",
+   "time": 5.394,
+   "check": true
+  },
+  {
+   "ply": 73,
+   "number": 37,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kf4",
+   "from": "f5",
+   "to": "f4",
+   "fen": "4r1k1/1p1b1p2/p5r1/4B3/5K2/2P5/6PP/8 b - - 10 37",
+   "thoughts": "White is in check from the bishop on d7. The only legal replies are **Ke4** and **Kf4**.\n\n**Kf4** keeps the bishop on e5 defended without pinning it against the king. By contrast, **Ke4** allows Black to exploit the e-file pin with **...f6**, attacking the bishop.\n\nFinal Answer: Kf4",
+   "time": 32.27,
+   "check": false
+  },
+  {
+   "ply": 74,
+   "number": 37,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Rg4+",
+   "from": "g6",
+   "to": "g4",
+   "fen": "4r1k1/1p1b1p2/p7/4B3/5Kr1/2P5/6PP/8 w - - 11 38",
+   "thoughts": "To find the strongest continuation, we evaluate Black's forcing moves:\n\n1. **37... Rg4+** gives a check protected by the bishop on d7 (along the d7–h3 diagonal). \n2. White's king has only one legal response, **38. Kf3**, as all other escape squares are covered:\n   - $e3$ is controlled by the rook on $e8$.\n   - $f5$ is controlled by the bishop on $d7$.\n   - $e4$, $g3$, and $g5$ are attacked by the rook on $g4$.\n   - The rook on $g4$ cannot be captured because it is protected by the bishop on $d7$.\n3. After **38. Kf3**, Black plays **38... Rxe5**, capturing White's last remaining minor piece and leaving Black ahead by two full rooks and a bishop with an effortless win.\n\nFinal Answer: Rg4+",
+   "time": 6.538,
+   "check": true
+  },
+  {
+   "ply": 75,
+   "number": 38,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kf3",
+   "from": "f4",
+   "to": "f3",
+   "fen": "4r1k1/1p1b1p2/p7/4B3/6r1/2P2K2/6PP/8 b - - 12 38",
+   "thoughts": "The rook on g4 is checking my king. The only legal replies are **Ke3** and **Kf3**: the rook controls e4, g3, and g5, while the bishop on d7 controls f5 and protects g4.\n\n**Kf3** is preferable because it keeps my king near the kingside pawns and avoids allowing ...Rxe5 with check.\n\nFinal Answer: Kf3",
+   "time": 24.325,
+   "check": false
+  },
+  {
+   "ply": 76,
+   "number": 38,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Rxe5",
+   "from": "e8",
+   "to": "e5",
+   "fen": "6k1/1p1b1p2/p7/4r3/6r1/2P2K2/6PP/8 w - - 0 39",
+   "thoughts": "To determine the strongest move for Black, let's analyze the current board state:\n\n1. **Material and Threats:**\n   - White just played `38. Kf3`, attempting to attack Black's rook on `g4`.\n   - White's bishop on `e5` is currently hanging and completely undefended.\n   - Black's rook on `e8` directly attacks the bishop on `e5`.\n\n2. **Evaluating Options:**\n   - **`38... Rxe5`**: Black immediately captures the undefended bishop on `e5`. If White responds with `39. Kxg4`, Black retains an overwhelming material advantage (Rook + Bishop vs. Pawns) with an easily converted endgame. If White does not take the rook, Black remains two full rooks and a bishop ahead.\n\nTherefore, capturing the bishop is completely winning and Black's most direct move.\n\nFinal Answer: Rxe5",
+   "time": 6.441,
+   "check": false
+  },
+  {
+   "ply": 77,
+   "number": 39,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "h3",
+   "from": "h2",
+   "to": "h3",
+   "fen": "6k1/1p1b1p2/p7/4r3/6r1/2P2K1P/6P1/8 b - - 0 39",
+   "thoughts": "1. White is far behind in material, so active counterplay offers the best practical chance.\n2. The black rooks severely restrict the king; **Kf2** is its only legal move.\n3. **h3** attacks the rook on g4 and prepares g4, allowing White’s connected kingside pawns to advance.\n\nFinal Answer: h3",
+   "time": 36.864,
+   "check": false
+  },
+  {
+   "ply": 78,
+   "number": 39,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Bc6+",
+   "from": "d7",
+   "to": "c6",
+   "fen": "6k1/1p3p2/p1b5/4r3/6r1/2P2K1P/6P1/8 w - - 1 40",
+   "thoughts": "To determine the best move for Black, let's assess the position:\n\n- Black is up significant material (two rooks and a bishop vs. pawns) with an active and coordinated piece setup.\n- White has just played `39. h3`, attacking the rook on `g4`.\n- Black can play the forcing check **`39... Bc6+`**, activating the bishop and targeting the white king on `f3`.\n- After `39... Bc6+`, if White captures the rook with `40. Kxg4`, Black cleanly wins with `40... Bxg2`, simplifying smoothly into a completely decisive endgame.\n\nFinal Answer: Bc6+",
+   "time": 9.802,
+   "check": true
+  },
+  {
+   "ply": 79,
+   "number": 40,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kxg4",
+   "from": "f3",
+   "to": "g4",
+   "fen": "6k1/1p3p2/p1b5/4r3/6K1/2P4P/6P1/8 b - - 0 40",
+   "thoughts": "White is in check from the bishop on c6 along the diagonal c6–d5–e4–f3. **Kxg4** escapes the check and captures an undefended rook. No remaining Black piece attacks g4, so the capture is legal and wins the most material.\n\nFinal Answer: Kxg4",
+   "time": 16.894,
+   "check": false
+  },
+  {
+   "ply": 80,
+   "number": 40,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Bxg2",
+   "from": "c6",
+   "to": "g2",
+   "fen": "6k1/1p3p2/p7/4r3/6K1/2P4P/6b1/8 w - - 0 41",
+   "thoughts": "To find the strongest move for Black, let's assess the current position:\n\n1. **Material Count:** Black is up a full rook and bishop against White's three pawns. \n2. **Tactical Opportunities:** White's King is on $g4$ and has no defending pieces left. The $g2$-pawn is undefended and attacked by Black's light-squared bishop on $c6$.\n3. **Candidate Moves:** \n   - `40... Bxg2`: Captures the undefended pawn, eliminating White's pawn structure on the kingside while keeping total control.\n\nTaking the $g2$ pawn completely crushes any counterplay White might have and leaves Black completely winning.\n\nFinal Answer: Bxg2",
+   "time": 4.275,
+   "check": false
+  },
+  {
+   "ply": 81,
+   "number": 41,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kf4",
+   "from": "g4",
+   "to": "f4",
+   "fen": "6k1/1p3p2/p7/4r3/5K2/2P4P/6b1/8 b - - 1 41",
+   "thoughts": "41. Kf4 is legal: f4 is not attacked by any Black piece. It centralizes the king and attacks the rook on e5, forcing Black to address that threat.\n\nFinal Answer: Kf4",
+   "time": 15.947,
+   "check": false
+  },
+  {
+   "ply": 82,
+   "number": 41,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "f6",
+   "from": "f7",
+   "to": "f6",
+   "fen": "6k1/1p6/p4p2/4r3/5K2/2P4P/6b1/8 w - - 0 42",
+   "thoughts": "To continue playing, Black should defend the attacked rook on e5 while keeping White's king restricted. \n\nThe move **41... f6** solidly protects the rook, denies the white king the e5 and g5 squares, and leaves Black with a completely winning endgame up a full rook and bishop.\n\nFinal Answer: f6",
+   "time": 6.041,
+   "check": false
+  },
+  {
+   "ply": 83,
+   "number": 42,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kg3",
+   "from": "f4",
+   "to": "g3",
+   "fen": "6k1/1p6/p4p2/4r3/8/2P3KP/6b1/8 b - - 1 42",
+   "thoughts": "White is down a rook and bishop, so active resistance is essential. Moving to g3 is legal: neither Black’s rook nor bishop attacks that square. It attacks the bishop on g2 while defending the h3-pawn and supporting its advance.\n\nFinal Answer: Kg3",
+   "time": 27.219,
+   "check": false
+  },
+  {
+   "ply": 84,
+   "number": 42,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Bc6",
+   "from": "g2",
+   "to": "c6",
+   "fen": "6k1/1p6/p1b2p2/4r3/8/2P3KP/8/8 w - - 2 43",
+   "thoughts": "To find the strongest move for Black, let's evaluate the position:\n\n1. **Material Count:** Black is up a full Rook and Bishop against White's lone King and two pawns (`c3`, `h3`).\n2. **Current Threat:** White's King on `g3` has just attacked the bishop on `g2`.\n3. **Plan:** Simply retreat the bishop to a safe and active square to preserve all material and maintain complete control over the board. \n\nMoving the bishop to **c6** (`42... Bc6`) places it on the dominant long diagonal ($a8-h1$), coordinates with the rook on `e5`, covers key infiltration squares, and prepares to shepherd the queenside pawns forward without giving White any counterplay.\n\nFinal Answer: Bc6",
+   "time": 6.562,
+   "check": false
+  },
+  {
+   "ply": 85,
+   "number": 43,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kf4",
+   "from": "g3",
+   "to": "f4",
+   "fen": "6k1/1p6/p1b2p2/4r3/5K2/2P4P/8/8 b - - 3 43",
+   "thoughts": "White is far behind in material, so active king play offers the best practical resistance. **43. Kf4** is legal: f4 is attacked by neither the rook, bishop, nor any black pawn. It also attacks the rook on e5, gaining a tempo.\n\nFinal Answer: Kf4",
+   "time": 34.047,
+   "check": false
+  },
+  {
+   "ply": 86,
+   "number": 43,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "a5",
+   "from": "a6",
+   "to": "a5",
+   "fen": "6k1/1p6/2b2p2/p3r3/5K2/2P4P/8/8 w - - 0 44",
+   "thoughts": "To make progress and convert the massive material advantage into a swift win, Black can simply push the queenside majority to create an unstoppable passed pawn.\n\n43... **a5** immediately starts the march of the a-pawn, which the White king cannot stop from promoting to a queen.\n\nFinal Answer: a5",
+   "time": 4.337,
+   "check": false
+  },
+  {
+   "ply": 87,
+   "number": 44,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kg4",
+   "from": "f4",
+   "to": "g4",
+   "fen": "6k1/1p6/2b2p2/p3r3/6K1/2P4P/8/8 b - - 1 44",
+   "thoughts": "White is down a rook, bishop, and pawn, so the position is lost with accurate play. The best practical chance is to activate the king and advance the h-pawn.\n\n**44. Kg4** is legal: g4 is attacked by neither Black’s rook nor bishop, and it brings the king closer to supporting the h-pawn.\n\nFinal Answer: Kg4",
+   "time": 19.558,
+   "check": false
+  },
+  {
+   "ply": 88,
+   "number": 44,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "a4",
+   "from": "a5",
+   "to": "a4",
+   "fen": "6k1/1p6/2b2p2/4r3/p5K1/2P4P/8/8 w - - 0 45",
+   "thoughts": "To convert the overwhelming material advantage, pushing the outside passed pawn creates an immediate and unstoppable queen promotion.\n\nBlack plays:\n44... **a4**\n\nWhite's king is far away on g4 and cannot catch the passed pawn.\n\nFinal Answer: a4",
+   "time": 4.292,
+   "check": false
+  },
+  {
+   "ply": 89,
+   "number": 45,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kf4",
+   "from": "g4",
+   "to": "f4",
+   "fen": "6k1/1p6/2b2p2/4r3/p4K2/2P4P/8/8 b - - 1 45",
+   "thoughts": "1. White is far behind in material, so active king play offers the best practical resistance.\n2. **Kf4** is legal: no black piece attacks f4.\n3. It immediately attacks the rook on e5 and brings the king closer to Black’s f6 pawn.\n\nFinal Answer: Kf4",
+   "time": 18.883,
+   "check": false
+  },
+  {
+   "ply": 90,
+   "number": 45,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "a3",
+   "from": "a4",
+   "to": "a3",
+   "fen": "6k1/1p6/2b2p2/4r3/5K2/p1P4P/8/8 w - - 0 46",
+   "thoughts": "To capitalize on our overwhelming material advantage and advance our passed pawn to promotion, the strongest move is to push the pawn.\n\n45... **a3**\n\nThe pawn is unstoppable and will promote to a Queen in two moves.\n\nFinal Answer: a3",
+   "time": 3.571,
+   "check": false
+  },
+  {
+   "ply": 91,
+   "number": 46,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kg3",
+   "from": "f4",
+   "to": "g3",
+   "fen": "6k1/1p6/2b2p2/4r3/8/p1P3KP/8/8 b - - 1 46",
+   "thoughts": "Black’s extra rook and bishop, combined with the advanced a-pawn, give Black a decisive advantage. White’s best practical chance is to keep the king mobile.\n\n**Kg3** is legal: neither the rook on e5 nor the bishop on c6 attacks g3. It also opens escape routes toward f2 and h2.\n\nFinal Answer: Kg3",
+   "time": 42.565,
+   "check": false
+  },
+  {
+   "ply": 92,
+   "number": 46,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "a2",
+   "from": "a3",
+   "to": "a2",
+   "fen": "6k1/1p6/2b2p2/4r3/8/2P3KP/p7/8 w - - 0 47",
+   "thoughts": "To find the strongest move for Black, we evaluate the current position:\n\n1. **Material and Imbalances:** Black is up a full rook and a bishop, and has an unstoppable passed pawn on the a-file (currently at `a3`).\n2. **Immediate Goal:** The most straightforward and decisive plan is to push the passed a-pawn to promote it to a queen.\n3. **Candidate Move:** Playing **46... a2** threatens immediate promotion on `a1`. White has no pieces capable of intercepting or stopping the pawn.\n\nFinal Answer: a2",
+   "time": 4.165,
+   "check": false
+  },
+  {
+   "ply": 93,
+   "number": 47,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "h4",
+   "from": "h3",
+   "to": "h4",
+   "fen": "6k1/1p6/2b2p2/4r3/7P/2P3K1/p7/8 b - - 0 47",
+   "thoughts": "1. Black threatens **...a1=Q**, and White cannot stop the promotion.\n2. White’s best practical hope is to create counterplay with the h-pawn.\n3. **h4** is legal, starts advancing the pawn, and frees h3 for the king.\n\nFinal Answer: h4",
+   "time": 34.264,
+   "check": false
+  },
+  {
+   "ply": 94,
+   "number": 47,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "a1=Q",
+   "from": "a2",
+   "to": "a1",
+   "fen": "6k1/1p6/2b2p2/4r3/7P/2P3K1/8/q7 w - - 0 48",
+   "thoughts": "To continue the game, Black should simply promote the advanced pawn on a2 to a Queen, securing an overwhelming material advantage.\n\nFinal Answer: a1=Q",
+   "time": 4.217,
+   "check": false
+  },
+  {
+   "ply": 95,
+   "number": 48,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kf4",
+   "from": "g3",
+   "to": "f4",
+   "fen": "6k1/1p6/2b2p2/4r3/5K1P/2P5/8/q7 b - - 1 48",
+   "thoughts": "White is heavily down material, so activating the king offers the best practical resistance. **Kf4** moves to a safe square and attacks Black’s rook on e5.\n\nFinal Answer: Kf4",
+   "time": 23.779,
+   "check": false
+  },
+  {
+   "ply": 96,
+   "number": 48,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qf1+",
+   "from": "a1",
+   "to": "f1",
+   "fen": "6k1/1p6/2b2p2/4r3/5K1P/2P5/8/5q2 w - - 2 49",
+   "thoughts": "To determine the best move for Black, we look for forcing attacking moves against White's exposed king on f4:\n\n1. **48... Qf1+** gives immediate check along the f-file (empty 1st rank allows the Queen on a1 to reach f1).\n2. White is left with only two legal responses:\n   - **49. Kg4 Qf3#** is an immediate checkmate, since:\n     - The Queen on f3 gives check to the King on g4 and is protected by the Bishop on c6.\n     - The squares around the King are all controlled: g5 and h5 by the Rook on e5 and pawn on f6, g3 and h3 by the Queen on f3, and h4 is blocked by White's own pawn.\n   - **49. Kg3**, which leads to mate on the next turn with **49... Qg2+ 50. Kf4 Qf3#** (or **49... Qf3+ 50. Kh2 Qg2#**).\n\nFinal Answer: Qf1+",
+   "time": 9.169,
+   "check": true
+  },
+  {
+   "ply": 97,
+   "number": 49,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kg3",
+   "from": "f4",
+   "to": "g3",
+   "fen": "6k1/1p6/2b2p2/4r3/7P/2P3K1/8/5q2 b - - 3 49",
+   "thoughts": "White is in check from the queen on f1. The only legal moves are **Kg3** and **Kg4**.\n\nAfter **Kg4**, Black has **...Qf3#**. **Kg3** avoids that immediate mate: after **...Qf3+**, White can escape with **Kh2**.\n\nFinal Answer: Kg3",
+   "time": 18.537,
+   "check": false
+  },
+  {
+   "ply": 98,
+   "number": 49,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qf3+",
+   "from": "f1",
+   "to": "f3",
+   "fen": "6k1/1p6/2b2p2/4r3/7P/2P2qK1/8/8 w - - 4 50",
+   "thoughts": "To find the most decisive continuation, we can calculate a forced checkmate in two moves:\n\n1. **49... Qf3+** \nForces White's King to the only legal square:\n2. **50. Kh2 Qg2#** (supported by the bishop on c6, delivering checkmate).\n\nFinal Answer: Qf3+",
+   "time": 6.945,
+   "check": true
+  },
+  {
+   "ply": 99,
+   "number": 50,
+   "side": "white",
+   "player": "gpt-6-astra",
+   "san": "Kh2",
+   "from": "g3",
+   "to": "h2",
+   "fen": "6k1/1p6/2b2p2/4r3/7P/2P2q2/7K/8 b - - 5 50",
+   "thoughts": "White is in check from the queen on f3. Kxf3 is illegal because the bishop on c6 protects the queen. All other adjacent squares except h2 are attacked or occupied, so Kh2 is forced.\n\nFinal Answer: Kh2",
+   "time": 12.922,
+   "check": false
+  },
+  {
+   "ply": 100,
+   "number": 50,
+   "side": "black",
+   "player": "gemini-3.7-flash",
+   "san": "Qg2#",
+   "from": "f3",
+   "to": "g2",
+   "fen": "6k1/1p6/2b2p2/4r3/7P/2P5/6qK/8 w - - 6 51",
+   "thoughts": "To determine Black's strongest move, let's analyze the current board position:\n\n- The White king is restricted to the **h2** square.\n- Black's Queen is on **f3** and Bishop is on **c6** along the long diagonal (**a8–h1**).\n- By playing **50... Qg2#**, the Queen delivers checkmate, supported along the long diagonal by the Bishop on **c6**. The White king has no escape squares and the Queen cannot be captured.\n\nFinal Answer: Qg2#",
+   "time": 4.717,
+   "check": true
+  }
+ ],
+ "segments": [
+  {
+   "kind": "intro",
+   "ply": 0,
+   "text": "Welcome to this game from Kaggle Game Arena. Playing white is Astra, an instance of GPT-6, and playing black is Gemini, version three point seven flash. We will follow each model's reasoning move by move, hearing what they calculated and what they considered. The game is a Sicilian Defense which promises sharp and complex play.",
+   "audio": "audio/en/edge/000-8d23011b5b.mp3",
+   "duration": 21.096
+  },
+  {
+   "kind": "move",
+   "ply": 1,
+   "text": "Astra opens with pawn e four, seizing the center and preparing development. The model notes it claims central space and opens lines for the bishop and queen.",
+   "audio": "audio/en/edge/001-9d0200e144.mp3",
+   "duration": 9.984
+  },
+  {
+   "kind": "move",
+   "ply": 2,
+   "text": "Gemini responds with pawn c five, the Sicilian Defense. The model sees it as dynamic and popular, preventing White from an uncontested pawn center.",
+   "audio": "audio/en/edge/002-e2561b6a04.mp3",
+   "duration": 10.416
+  },
+  {
+   "kind": "move",
+   "ply": 3,
+   "text": "Astra develops the knight to f three, controlling the center and preparing a push to d four.",
+   "audio": "audio/en/edge/003-1e4b8d96eb.mp3",
+   "duration": 5.88
+  },
+  {
+   "kind": "move",
+   "ply": 4,
+   "text": "Gemini plays pawn d six, supporting the Sicilian structure. The model says this prevents an immediate e five push and sets up for classical setups.",
+   "audio": "audio/en/edge/004-40cc4863b5.mp3",
+   "duration": 10.104
+  },
+  {
+   "kind": "move",
+   "ply": 5,
+   "text": "Astra pushes pawn d four, challenging Black's c pawn and opening the center. The model sees it as the strongest continuation.",
+   "audio": "audio/en/edge/005-a14afb13bb.mp3",
+   "duration": 8.832
+  },
+  {
+   "kind": "move",
+   "ply": 6,
+   "text": "Gemini captures with pawn c takes d four, exchanging a flank pawn for a central one. The model aims for a central pawn majority.",
+   "audio": "audio/en/edge/006-70fd49409a.mp3",
+   "duration": 9.12
+  },
+  {
+   "kind": "move",
+   "ply": 7,
+   "text": "Astra recaptures with knight to d four, restoring material balance and posting the knight centrally.",
+   "audio": "audio/en/edge/007-72f8609253.mp3",
+   "duration": 6.216
+  },
+  {
+   "kind": "move",
+   "ply": 8,
+   "text": "Gemini develops the knight to f six, attacking the undefended e four pawn. The model forces White to commit a defender.",
+   "audio": "audio/en/edge/008-aa418ef247.mp3",
+   "duration": 8.592
+  },
+  {
+   "kind": "move",
+   "ply": 9,
+   "text": "Astra defends with knight to c three, supporting the center.",
+   "audio": "audio/en/edge/009-8cf2320595.mp3",
+   "duration": 4.296
+  },
+  {
+   "kind": "move",
+   "ply": 10,
+   "text": "Gemini plays pawn a six, entering the Najdorf Variation. The model says it prevents White's pieces from using b five and prepares queenside counterplay.",
+   "audio": "audio/en/edge/010-70a6296f71.mp3",
+   "duration": 9.96
+  },
+  {
+   "kind": "move",
+   "ply": 11,
+   "text": "Astra develops the bishop to g five, pinning the knight and preparing queen to d two and queenside castling.",
+   "audio": "audio/en/edge/011-9985868f5f.mp3",
+   "duration": 6.6
+  },
+  {
+   "kind": "move",
+   "ply": 12,
+   "text": "Gemini plays pawn e six, blunting the bishop's influence and defending against e four to e five pushes.",
+   "audio": "audio/en/edge/012-54d897e30f.mp3",
+   "duration": 6.576
+  },
+  {
+   "kind": "move",
+   "ply": 13,
+   "text": "Astra pushes pawn f four, gaining kingside space and supporting a future e five advance. The model says it prepares an attacking setup.",
+   "audio": "audio/en/edge/013-f00b8052ad.mp3",
+   "duration": 9.216
+  },
+  {
+   "kind": "move",
+   "ply": 14,
+   "text": "Gemini plays queen to b six, entering the Poisoned Pawn Variation. The model says this tests White's initiative by targeting the b two pawn.",
+   "audio": "audio/en/edge/014-d3e5c377e2.mp3",
+   "duration": 9.336
+  },
+  {
+   "kind": "move",
+   "ply": 15,
+   "text": "Astra plays queen to d two, supporting the knight on d four and preparing queenside castling. The model notes that if Black captures the b two pawn, rook to b one gains a tempo.",
+   "audio": "audio/en/edge/015-ff3889094b.mp3",
+   "duration": 11.112
+  },
+  {
+   "kind": "move",
+   "ply": 16,
+   "text": "Gemini captures with queen takes b two, accepting the Poisoned Pawn. The model says this is the critical test, accepting the gambit for activity.",
+   "audio": "audio/en/edge/016-3ce2618e63.mp3",
+   "duration": 9.984
+  },
+  {
+   "kind": "move",
+   "ply": 17,
+   "text": "Astra moves rook to b one, attacking the queen with tempo. The model says it preserves White's central presence.",
+   "audio": "audio/en/edge/017-10b0685a6d.mp3",
+   "duration": 7.824
+  },
+  {
+   "kind": "move",
+   "ply": 18,
+   "text": "Gemini retreats the queen to a three, the only safe square. The model says it keeps pressure on the queenside.",
+   "audio": "audio/en/edge/018-b914d42974.mp3",
+   "duration": 7.704
+  },
+  {
+   "kind": "move",
+   "ply": 19,
+   "text": "Astra pushes pawn e five, attacking the f six knight and challenging Black's center. The model notes Black's king is uncastled and queen far away, but the engine assessment after this move shifts from a slight White advantage to a slight Black advantage, suggesting the advance may have been premature.",
+   "audio": "audio/en/edge/019-18474b73b1.mp3",
+   "duration": 16.608
+  },
+  {
+   "kind": "move",
+   "ply": 20,
+   "text": "Gemini captures with pawn d takes e five, eliminating White's e pawn. The model says this is the critical theoretical continuation leading to sharp play. After twenty plies, Black holds a small edge according to the engine.",
+   "audio": "audio/en/edge/020-140ee9cd8c.mp3",
+   "duration": 14.952
+  },
+  {
+   "kind": "move",
+   "ply": 21,
+   "text": "Astra recaptures on e5 with the f pawn, removing the black pawn and attacking the knight on f6. She plans to follow up with knight to e4 after the expected knight retreat.",
+   "audio": "audio/en/edge/021-4c4df8e4ac.mp3",
+   "duration": 11.208
+  },
+  {
+   "kind": "move",
+   "ply": 22,
+   "text": "Gemini retreats the attacked knight to d seven, following the theoretically strongest line, keeping the position flexible and maintaining the extra pawn.",
+   "audio": "audio/en/edge/022-662490e7d4.mp3",
+   "duration": 8.928
+  },
+  {
+   "kind": "move",
+   "ply": 23,
+   "text": "Astra centralizes her knight to e four, increasing pressure and eyeing the d six square for a potential check.",
+   "audio": "audio/en/edge/023-f118aa5dcd.mp3",
+   "duration": 6.72
+  },
+  {
+   "kind": "move",
+   "ply": 24,
+   "text": "Gemini challenges the bishop with h six, a principled move that puts the question to White's bishop while keeping the extra pawn.",
+   "audio": "audio/en/edge/024-02f17799c5.mp3",
+   "duration": 7.68
+  },
+  {
+   "kind": "move",
+   "ply": 25,
+   "text": "Astra retreats her bishop to h four, maintaining the pin on the knight and keeping her options open.",
+   "audio": "audio/en/edge/025-f3ec2cf412.mp3",
+   "duration": 6.144
+  },
+  {
+   "kind": "move",
+   "ply": 26,
+   "text": "Gemini grabs another pawn with queen to a two, attacking the rook on b1 and planning to centralize the queen.",
+   "audio": "audio/en/edge/026-b1fb5c2906.mp3",
+   "duration": 6.648
+  },
+  {
+   "kind": "move",
+   "ply": 27,
+   "text": "Astra moves her rook to d one, saving it from the queen attack and placing it on the central file.",
+   "audio": "audio/en/edge/027-add725ed8f.mp3",
+   "duration": 5.904
+  },
+  {
+   "kind": "move",
+   "ply": 28,
+   "text": "Gemini centralizes the queen to d five, attacking the knight on e4 and putting pressure on White's center.",
+   "audio": "audio/en/edge/028-9552847f83.mp3",
+   "duration": 6.552
+  },
+  {
+   "kind": "move",
+   "ply": 29,
+   "text": "Astra moves her queen to e three, reinforcing the knight and preparing to develop the bishop and castle.",
+   "audio": "audio/en/edge/029-4d14c108e1.mp3",
+   "duration": 6.216
+  },
+  {
+   "kind": "move",
+   "ply": 30,
+   "text": "Gemini captures the e five pawn with the queen, eliminating White's dangerous advanced pawn and centralizing her queen.",
+   "audio": "audio/en/edge/030-b2dad4dcb8.mp3",
+   "duration": 7.176
+  },
+  {
+   "kind": "move",
+   "ply": 31,
+   "text": "Astra develops her bishop to e two, preparing to castle and threatening to attack the queen with Bg3.",
+   "audio": "audio/en/edge/031-8cd3b07638.mp3",
+   "duration": 6.528
+  },
+  {
+   "kind": "move",
+   "ply": 32,
+   "text": "Gemini develops the bishop to c five, pinning the knight on d4 to the queen and preparing to castle.",
+   "audio": "audio/en/edge/032-5cf92f98d3.mp3",
+   "duration": 6.456
+  },
+  {
+   "kind": "move",
+   "ply": 33,
+   "text": "Astra moves her bishop to g three, attacking the black queen and gaining a tempo while keeping pressure.",
+   "audio": "audio/en/edge/033-618ccf0fd9.mp3",
+   "duration": 6.264
+  },
+  {
+   "kind": "move",
+   "ply": 34,
+   "text": "Gemini captures the knight on d four with the bishop, eliminating a key attacking piece and simplifying the position.",
+   "audio": "audio/en/edge/034-cbf7529d6f.mp3",
+   "duration": 7.032
+  },
+  {
+   "kind": "move",
+   "ply": 35,
+   "text": "Astra recaptures with the rook, centralizing it and noting that if Black captures the rook, the queen exchange favors White.",
+   "audio": "audio/en/edge/035-aae364b65d.mp3",
+   "duration": 7.368
+  },
+  {
+   "kind": "move",
+   "ply": 36,
+   "text": "Gemini moves the queen to a five with check, escaping the double attack and gaining a tempo to castle safely.",
+   "audio": "audio/en/edge/036-4105925eef.mp3",
+   "duration": 6.552
+  },
+  {
+   "kind": "move",
+   "ply": 37,
+   "text": "Astra blocks the check with c three, but the engine suggests rook to d two was more accurate, maintaining better control.",
+   "audio": "audio/en/edge/037-cda166ab3d.mp3",
+   "duration": 7.368
+  },
+  {
+   "kind": "move",
+   "ply": 38,
+   "text": "Gemini castles kingside, getting the king to safety and connecting the rooks.",
+   "audio": "audio/en/edge/038-a784a9674c.mp3",
+   "duration": 5.184
+  },
+  {
+   "kind": "move",
+   "ply": 39,
+   "text": "Astra also castles kingside, bringing the rook into play and securing her king.",
+   "audio": "audio/en/edge/039-201736f033.mp3",
+   "duration": 5.424
+  },
+  {
+   "kind": "move",
+   "ply": 40,
+   "text": "Gemini develops the knight to c six, attacking the rook on d4 and gaining a tempo while completing development.",
+   "audio": "audio/en/edge/040-822dee1bff.mp3",
+   "duration": 6.936
+  },
+  {
+   "kind": "move",
+   "ply": 41,
+   "text": "Astra plays knight to f six, check. She reasons that the forcing move brings the knight into the attack, and after gxf6 she has rook to g four plus, opening a dangerous kingside attack. But the engine calls this a blunder, losing over forty centipawns. The best move would have been rook takes d seven, immediately exploiting Black's undefended knight. Instead, Astra walks into a capture that simplifies the defense.",
+   "audio": "audio/en/edge/041-66e0882d9c.mp3",
+   "duration": 26.592
+  },
+  {
+   "kind": "move",
+   "ply": 42,
+   "text": "Gemini replies knight takes f six. He considered the alternatives: king to h eight loses to rook to h four, and gxf6 fatally weakens the kingside. By capturing, he eliminates the checking knight and prepares to meet rook takes f six with queen to g five, challenging White's queen and countering the attack. The engine agrees this is the best defense.",
+   "audio": "audio/en/edge/042-0009fd2501.mp3",
+   "duration": 22.536
+  },
+  {
+   "kind": "move",
+   "ply": 43,
+   "text": "Astra recaptures with rook takes f six. She calls the f6 knight a key defender and hopes Black will accept with gxf6, after which queen takes h six creates mating threats. But she overlooks that Black can simply take the other rook on d4, as Gemini will show next move.",
+   "audio": "audio/en/edge/043-7adcfe39ec.mp3",
+   "duration": 17.52
+  },
+  {
+   "kind": "move",
+   "ply": 44,
+   "text": "Gemini plays knight takes d four, capturing the rook. He reasons that White has just sacrificed a rook, but Black can eliminate the other active rook immediately. If White recaptures with pawn c takes d four or queen takes d four, Black then captures the rook on f6 with gxf6, leaving Black with an overwhelming material advantage.",
+   "audio": "audio/en/edge/044-33c7057e4c.mp3",
+   "duration": 21.048
+  },
+  {
+   "kind": "move",
+   "ply": 45,
+   "text": "Astra plays bishop to d three. The engine calls this an inaccuracy, preferring pawn c takes d four. She brings the bishop onto the b1 to h7 diagonal and removes it from possible capture on e2. But the rook on f6 remains under attack, and she misses the chance to recapture the knight on d4 with the pawn.",
+   "audio": "audio/en/edge/045-54478f58ba.mp3",
+   "duration": 20.856
+  },
+  {
+   "kind": "move",
+   "ply": 46,
+   "text": "Gemini plays knight to f five. He says this brilliantly solves all defensive concerns: it blocks the bishop's diagonal toward h7, attacks White's queen on e3 and the rook on f6, and forces White into a completely lost endgame. The engine confirms this is strong, keeping Black's huge material advantage.",
+   "audio": "audio/en/edge/046-527b063c11.mp3",
+   "duration": 19.44
+  },
+  {
+   "kind": "move",
+   "ply": 47,
+   "text": "Astra takes the knight with bishop takes f five. She removes the knight that attacks her queen and blocks her attacking lines. She expects pawn e takes f five, then bishop to e five supporting the rook and threatening Rxh6. But the rook on f6 is still attacked by the g7 pawn, and she will not get a chance to follow up.",
+   "audio": "audio/en/edge/047-c5ec8a9ead.mp3",
+   "duration": 20.256
+  },
+  {
+   "kind": "move",
+   "ply": 48,
+   "text": "Gemini recaptures with pawn e takes f five. He notes that this keeps the pawn structure solid around the king. If White tries rook takes h six, Black can reply queen to a one plus, followed by picking up the c3 pawn. This move secures a completely winning material advantage.",
+   "audio": "audio/en/edge/048-56c5f4e869.mp3",
+   "duration": 18.672
+  },
+  {
+   "kind": "move",
+   "ply": 49,
+   "text": "Astra plays rook takes h six, sacrificing the exchange. She hopes to remove a key defender and open the kingside. After gxh6, she plans queen takes h six, threatening queen to g six plus and bishop to e five checkmate. But Black has a tactical resource that she did not consider.",
+   "audio": "audio/en/edge/049-cccae51176.mp3",
+   "duration": 19.44
+  },
+  {
+   "kind": "move",
+   "ply": 50,
+   "text": "Gemini plays queen to a one, check. He seizes the initiative, forcing White to respond. If White blocks with bishop to e one, Black simply captures the rook with gxh6, and if queen takes h six, Black has queen takes e one checkmate. If White moves the king, Black can still take the rook and then control the critical diagonal.",
+   "audio": "audio/en/edge/050-54c676a8fa.mp3",
+   "duration": 21.528
+  },
+  {
+   "kind": "move",
+   "ply": 51,
+   "text": "Astra moves king to f two. She reasons that moving to f2 is legal because Black's f7 pawn blocks the rook on f8, and no other black piece attacks f2. This preserves her queen, rook, and bishop for the attack rather than interposing. But the king is not safe here, as Black will continue checking and developing threats.",
+   "audio": "audio/en/edge/051-6299c5b3d4.mp3",
+   "duration": 20.784
+  },
+  {
+   "kind": "move",
+   "ply": 52,
+   "text": "Gemini plays queen to b two, check. He says this forces White's king to an awkward square. If king to f three, Black can play bishop to d seven, threatening bishop to c six plus with a decisive advantage. If king to f one, Black gives another check and then captures the rook on h6. This maintains the initiative.",
+   "audio": "audio/en/edge/052-d9d631207e.mp3",
+   "duration": 21.768
+  },
+  {
+   "kind": "move",
+   "ply": 53,
+   "text": "Astra moves king to f three. She checks that f3 is not attacked by any black piece. This escapes the queen's immediate checking line while keeping her queen, rook, and bishop actively placed. But the king is becoming exposed, and Black is about to bring the bishop into the attack.",
+   "audio": "audio/en/edge/053-5822b434b4.mp3",
+   "duration": 18.12
+  },
+  {
+   "kind": "move",
+   "ply": 54,
+   "text": "Gemini develops bishop to d seven. He says this immediately creates decisive threats along the long diagonal, targeting White's exposed king on f3 with Bc6 plus. After this move, White has no adequate defense against that check, which will win further material and neutralize any attack.",
+   "audio": "audio/en/edge/054-e6197aabc9.mp3",
+   "duration": 18.72
+  },
+  {
+   "kind": "move",
+   "ply": 55,
+   "text": "Astra plays queen to g five. She threatens queen to h five followed by rook to h eight checkmate, with the queen protecting the rook. If Black weakens the kingside with g6, she plans bishop to e five creating another mating threat. But this does not address the immediate check threat from the bishop on d7.",
+   "audio": "audio/en/edge/055-afecb3ae0e.mp3",
+   "duration": 19.68
+  },
+  {
+   "kind": "move",
+   "ply": 56,
+   "text": "Gemini plays bishop to c six, check. He activates the bishop with tempo. If White captures with rook takes c six, the dangerous rook on h6 is removed, and Black is completely winning. If White moves the king to f four, Black has queen to d two plus, winning White's queen via a skewer. This shuts down White's attack.",
+   "audio": "audio/en/edge/056-455ceef92d.mp3",
+   "duration": 22.056
+  },
+  {
+   "kind": "move",
+   "ply": 57,
+   "text": "Astra moves king to f four. She escapes the check legally while keeping her queen, rook, and bishop poised for the kingside attack. She expects the natural queen to d two plus, then she can continue king takes f five. But the engine now evaluates the position as heavily losing, over eleven hundred centipawns.",
+   "audio": "audio/en/edge/057-7d6c8abf62.mp3",
+   "duration": 20.136
+  },
+  {
+   "kind": "move",
+   "ply": 58,
+   "text": "Gemini plays queen to d two, check. He says this skewers the White king on f4 to the queen on g5. White cannot interpose on e3, forcing the king to move and allowing Black to capture the queen on the next move. This is a decisive blow.",
+   "audio": "audio/en/edge/058-7f1d10d4b7.mp3",
+   "duration": 16.44
+  },
+  {
+   "kind": "move",
+   "ply": 59,
+   "text": "Astra plays king takes f five, capturing a pawn. She says this removes a pawn and keeps White's attack active, and the capture is safe because Black's f7 pawn blocks the rook on f8. But the queen on g5 remains undefended, and Black will capture it next move with check.",
+   "audio": "audio/en/edge/059-ad49d26d1e.mp3",
+   "duration": 17.52
+  },
+  {
+   "kind": "move",
+   "ply": 60,
+   "text": "Gemini plays queen takes g five, check, capturing the queen. He notes that White's queen on g5 is unprotected. After the forced king takes g five, Black plays g6 pawn takes h6 plus, winning the rook as well. This liquidates into an endgame where Black is ahead by two rooks and a bishop against a lone bishop, completely eliminating any White counterplay.",
+   "audio": "audio/en/edge/060-3729e87887.mp3",
+   "duration": 23.136
+  },
+  {
+   "kind": "move",
+   "ply": 61,
+   "text": "Astra recaptures the queen with king takes g five. It sees that the queen is undefended, so this wins black's strongest piece.",
+   "audio": "audio/en/edge/061-29c3d4dbe0.mp3",
+   "duration": 8.928
+  },
+  {
+   "kind": "move",
+   "ply": 62,
+   "text": "Gemini strikes back immediately with pawn g takes h six, check. It notes the rook on h six is undefended and attacked, so this wins a full rook while delivering check.",
+   "audio": "audio/en/edge/062-866fb0919a.mp3",
+   "duration": 11.184
+  },
+  {
+   "kind": "move",
+   "ply": 63,
+   "text": "Astra recaptures with king takes h six, removing the checking pawn. The king is now isolated on h six.",
+   "audio": "audio/en/edge/063-a60e8ccb35.mp3",
+   "duration": 8.184
+  },
+  {
+   "kind": "move",
+   "ply": 64,
+   "text": "Gemini activates the idle rook with rook a to e eight. It plans to coordinate an attack against the exposed white king and threatens rook e six plus a discovered attack on the bishop.",
+   "audio": "audio/en/edge/064-cc26774d71.mp3",
+   "duration": 10.824
+  },
+  {
+   "kind": "move",
+   "ply": 65,
+   "text": "Astra moves the bishop to f four. It considers bishop d six but rejects it because rook e six check would win the bishop. Instead it keeps the bishop active without exposing it to that tactic.",
+   "audio": "audio/en/edge/065-5321675e3f.mp3",
+   "duration": 12.792
+  },
+  {
+   "kind": "move",
+   "ply": 66,
+   "text": "Gemini checks with rook to e six, forcing the white king away from the corner. It wants to restrict white's king and simplify the path to victory.",
+   "audio": "audio/en/edge/066-efc2a2c762.mp3",
+   "duration": 9.48
+  },
+  {
+   "kind": "move",
+   "ply": 67,
+   "text": "Astra moves the king to g five, choosing the center over the edge. It says this offers more escape routes.",
+   "audio": "audio/en/edge/067-69c1e45420.mp3",
+   "duration": 7.584
+  },
+  {
+   "kind": "move",
+   "ply": 68,
+   "text": "Gemini checks again with rook to g six. It calculates several lines: if the king goes to h four, bishop takes g two; if to h five, king h seven with unstoppable mating threats; if to f five, rook e eight with mate threats like bishop d seven.",
+   "audio": "audio/en/edge/068-a6c82d5b9e.mp3",
+   "duration": 15.264
+  },
+  {
+   "kind": "move",
+   "ply": 69,
+   "text": "Astra moves the king to f five, heading toward the center. It says this reduces the risk of being trapped at the edge.",
+   "audio": "audio/en/edge/069-3ec8eb6e66.mp3",
+   "duration": 7.968
+  },
+  {
+   "kind": "move",
+   "ply": 70,
+   "text": "Gemini plays rook to e eight, sealing the e file. It declares an unstoppable mating threat: bishop d seven mate. The white king has no legal moves.",
+   "audio": "audio/en/edge/070-a6a93516b3.mp3",
+   "duration": 11.088
+  },
+  {
+   "kind": "move",
+   "ply": 71,
+   "text": "Astra thinks for over a minute and plays bishop to e five. It realizes the king has no legal moves and any pawn move allows bishop e four mate. The bishop frees f four for the king and blocks the e file.",
+   "audio": "audio/en/edge/071-80940de441.mp3",
+   "duration": 13.176
+  },
+  {
+   "kind": "move",
+   "ply": 72,
+   "text": "Gemini checks with bishop to d seven. It calculates that after king f four, rook g four check forces the king to f three, then rook takes e five wins the bishop cleanly, ending any resistance.",
+   "audio": "audio/en/edge/072-725d098a04.mp3",
+   "duration": 12.144
+  },
+  {
+   "kind": "move",
+   "ply": 73,
+   "text": "Astra moves the king to f four. It considers king e four but rejects it because black could play pawn f six, attacking the bishop.",
+   "audio": "audio/en/edge/073-cac3d467e6.mp3",
+   "duration": 8.784
+  },
+  {
+   "kind": "move",
+   "ply": 74,
+   "text": "Gemini checks with rook to g four, protected by the bishop. It notes that the king has only one legal move, king f three, after which rook takes e five captures the bishop.",
+   "audio": "audio/en/edge/074-9058616b35.mp3",
+   "duration": 11.04
+  },
+  {
+   "kind": "move",
+   "ply": 75,
+   "text": "Astra moves the king to f three, the only square not covered by black's pieces. It prefers f three over e three because it keeps the king near the kingside pawns.",
+   "audio": "audio/en/edge/075-774cd2e295.mp3",
+   "duration": 10.104
+  },
+  {
+   "kind": "move",
+   "ply": 76,
+   "text": "Gemini captures the undefended bishop with rook takes e five. If white captures the rook on g four, black still has a rook and bishop against pawns, an easily converted endgame.",
+   "audio": "audio/en/edge/076-b09291b869.mp3",
+   "duration": 11.544
+  },
+  {
+   "kind": "move",
+   "ply": 77,
+   "text": "Astra pushes pawn to h three, attacking the rook on g four. It says the king's only legal move is f two, and it wants to advance the connected kingside pawns.",
+   "audio": "audio/en/edge/077-3b8f92bef6.mp3",
+   "duration": 10.584
+  },
+  {
+   "kind": "move",
+   "ply": 78,
+   "text": "Gemini checks with bishop to c six. It calculates that if white captures the rook with king takes g four, black plays bishop takes g two, simplifying into a completely decisive endgame.",
+   "audio": "audio/en/edge/078-9b8c714671.mp3",
+   "duration": 12.24
+  },
+  {
+   "kind": "move",
+   "ply": 79,
+   "text": "Astra captures the rook with king takes g four, escaping the check and winning material. It notes that no black piece attacks g four.",
+   "audio": "audio/en/edge/079-0039bfd2e6.mp3",
+   "duration": 9.12
+  },
+  {
+   "kind": "move",
+   "ply": 80,
+   "text": "Gemini captures the pawn with bishop takes g two. It says this eliminates white's kingside pawn structure and crushes any counterplay, leaving black completely winning.",
+   "audio": "audio/en/edge/080-ba699442cb.mp3",
+   "duration": 10.704
+  },
+  {
+   "kind": "move",
+   "ply": 81,
+   "text": "Astra moves the king to f four, centralizing and attacking the black rook on e five, forcing a response.",
+   "audio": "audio/en/edge/081-de14f17f16.mp3",
+   "duration": 6.576
+  },
+  {
+   "kind": "move",
+   "ply": 82,
+   "text": "Gemini pushes the pawn to f six, solidly protecting the rook and denying the white king the e five and g five squares.",
+   "audio": "audio/en/edge/082-3f36227568.mp3",
+   "duration": 7.272
+  },
+  {
+   "kind": "move",
+   "ply": 83,
+   "text": "Astra retreats the king to g three, attacking the bishop on g two while defending the h three pawn.",
+   "audio": "audio/en/edge/083-f8b76fd10d.mp3",
+   "duration": 6.432
+  },
+  {
+   "kind": "move",
+   "ply": 84,
+   "text": "Gemini slides the bishop back to c six, placing it on the long diagonal to control the board and support the coming pawn advance.",
+   "audio": "audio/en/edge/084-4bc698ad06.mp3",
+   "duration": 7.728
+  },
+  {
+   "kind": "move",
+   "ply": 85,
+   "text": "Astra brings the king back to f four, again threatening the rook on e five and trying to create counterplay.",
+   "audio": "audio/en/edge/085-07dccaf730.mp3",
+   "duration": 6.312
+  },
+  {
+   "kind": "move",
+   "ply": 86,
+   "text": "Gemini starts marching the a pawn forward with a five, creating a dangerous passed pawn that the white king cannot easily stop.",
+   "audio": "audio/en/edge/086-cd82b0de92.mp3",
+   "duration": 7.608
+  },
+  {
+   "kind": "move",
+   "ply": 87,
+   "text": "Astra moves the king to g four, hoping to support the h pawn and maybe create some threats, but the black pawns on the queenside are already rolling.",
+   "audio": "audio/en/edge/087-3963ae1e30.mp3",
+   "duration": 8.352
+  },
+  {
+   "kind": "move",
+   "ply": 88,
+   "text": "Gemini pushes the pawn to a four, bringing it closer to promotion. The white king is too far away to intercept.",
+   "audio": "audio/en/edge/088-67a755caf0.mp3",
+   "duration": 7.992
+  },
+  {
+   "kind": "move",
+   "ply": 89,
+   "text": "Astra returns the king to f four, still trying to harass the rook, but this does nothing to stop the unstoppable a pawn.",
+   "audio": "audio/en/edge/089-51af417c3f.mp3",
+   "duration": 7.248
+  },
+  {
+   "kind": "move",
+   "ply": 90,
+   "text": "Gemini advances the pawn to a three, now threatening promotion in two moves. White is completely helpless.",
+   "audio": "audio/en/edge/090-df983b9679.mp3",
+   "duration": 7.632
+  },
+  {
+   "kind": "move",
+   "ply": 91,
+   "text": "Astra moves the king to g three, perhaps hoping to find shelter, but it is only delaying the inevitable.",
+   "audio": "audio/en/edge/091-f6c996cf81.mp3",
+   "duration": 6.624
+  },
+  {
+   "kind": "move",
+   "ply": 92,
+   "text": "Gemini pushes the pawn to a two, threatening immediate promotion to a queen on the next move.",
+   "audio": "audio/en/edge/092-ecde51badc.mp3",
+   "duration": 5.952
+  },
+  {
+   "kind": "move",
+   "ply": 93,
+   "text": "Astra pushes the h pawn to h four, a desperate attempt to create some counterplay, but it is far too slow.",
+   "audio": "audio/en/edge/093-c41d81793e.mp3",
+   "duration": 6.744
+  },
+  {
+   "kind": "move",
+   "ply": 94,
+   "text": "Gemini promotes the a pawn to a queen, giving Black an overwhelming material advantage of a rook, bishop, and queen against a lone king and two pawns.",
+   "audio": "audio/en/edge/094-f7618045e5.mp3",
+   "duration": 8.688
+  },
+  {
+   "kind": "move",
+   "ply": 95,
+   "text": "Astra moves the king to f four, still attacking the rook, but now Black has a queen that can deliver checkmate quickly.",
+   "audio": "audio/en/edge/095-6cc4d5bda5.mp3",
+   "duration": 7.032
+  },
+  {
+   "kind": "move",
+   "ply": 96,
+   "text": "Gemini plays queen to f one with check, and has calculated a forced mate: if the white king goes to g four, it is checkmate by queen to f three; if to g three, then queen to f three check forces king to h two, followed by queen to g two checkmate.",
+   "audio": "audio/en/edge/096-3ec4895012.mp3",
+   "duration": 13.416
+  },
+  {
+   "kind": "move",
+   "ply": 97,
+   "text": "Astra escapes to g three, the only safe square, and believes that after queen to f three check, the king can hide on h two. But Gemini has seen the mate already.",
+   "audio": "audio/en/edge/097-5615b64bfa.mp3",
+   "duration": 10.584
+  },
+  {
+   "kind": "move",
+   "ply": 98,
+   "text": "Gemini delivers queen to f three with check, forcing the white king to the only legal square, h two.",
+   "audio": "audio/en/edge/098-28ef058771.mp3",
+   "duration": 6.528
+  },
+  {
+   "kind": "move",
+   "ply": 99,
+   "text": "Astra is forced to retreat to h two, with no good options left.",
+   "audio": "audio/en/edge/099-fe8f67079c.mp3",
+   "duration": 4.584
+  },
+  {
+   "kind": "move",
+   "ply": 100,
+   "text": "Gemini delivers checkmate with queen to g two. The bishop on c six supports the queen, and the king is trapped with no escape squares. The game is over: checkmate.",
+   "audio": "audio/en/edge/100-783828f0b1.mp3",
+   "duration": 11.568
+  },
+  {
+   "kind": "outro",
+   "ply": 100,
+   "text": "Gemini wins by checkmate on move fifty. The game was decided by Black's superior conversion of a material advantage: after winning a rook and bishop in the middlegame, Gemini systematically pushed the queenside pawns to create an unstoppable passed pawn, which promoted to a queen. With queen, rook, and bishop against a lone king, Gemini calculated a precise forced mate. Astra's reasoning relied on activating the king and trying to create counterplay, but it missed the final mating net after king to g three, believing the king could escape to h two. This game shows that Gemini's tactical calculation was sharper in the endgame, while Astra's practical attempts were not enough against accurate play.",
+   "audio": "audio/en/edge/101-f5150b37e1.mp3",
+   "duration": 40.656
+  }
+ ]
+}

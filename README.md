@@ -11,7 +11,7 @@ episode JSON ──► parse + python-chess facts ──► LLM script ──►
                     optional Stockfish)           per move)
 ```
 
-**▶ Live demo:** [GPT-6 Astra vs Gemini 3.7 Flash, narrated in Spanish](https://gamaerry.github.io/arena-narrator/109084577/?lang=es) (episode 109084577; narrator `deepseek/deepseek-v4.1-flash`, voice `es-MX-JorgeNeural`).
+**▶ Live demo:** GPT-6 Astra vs Gemini 3.7 Flash, narrated in [English](https://gamaerry.github.io/arena-narrator/109084577/?lang=en) or [Spanish](https://gamaerry.github.io/arena-narrator/109084577/?lang=es) (episode 109084577; DeepSeek narrator with Stockfish facts, edge-tts voices).
 
 ## Quick start
 
@@ -100,7 +100,7 @@ uv run ruff check
 
 ## En español
 
-**▶ Demo:** [GPT-6 Astra vs Gemini 3.7 Flash, narrada en español](https://gamaerry.github.io/arena-narrator/109084577/?lang=es).
+**▶ Demo:** GPT-6 Astra vs Gemini 3.7 Flash, narrada en [español](https://gamaerry.github.io/arena-narrator/109084577/?lang=es) o en [inglés](https://gamaerry.github.io/arena-narrator/109084577/?lang=en).
 
 **Convierte cualquier partida de ajedrez de [Kaggle Game Arena](https://www.kaggle.com/game-arena) en una narración centrada en lo que pensaba cada modelo.**
 
