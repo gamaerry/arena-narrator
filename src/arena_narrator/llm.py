@@ -12,6 +12,7 @@ DEFAULT_MODELS = {
     "anthropic": "claude-sonnet-5-5",
     "gemini": "gemini-flash-latest",
     "claude-cli": "sonnet",
+    "openrouter": "anthropic/claude-opus-5.5",
 }
 
 
@@ -95,6 +96,56 @@ class GeminiLLM:
             raise LLMError(f"Model did not return JSON: {(resp.text or '')[:300]}") from e
 
 
+class OpenRouterLLM:
+    """Any model on openrouter.ai through its OpenAI-compatible API (OPENROUTER_API_KEY)."""
+
+    name = "openrouter"
+    URL = "https://openrouter.ai/api/v1/chat/completions"
+
+    def __init__(self, model: str | None = None):
+        self.key = os.environ.get("OPENROUTER_API_KEY")
+        if not self.key:
+            raise LLMError("Set OPENROUTER_API_KEY to use --provider openrouter")
+        self.model = model or DEFAULT_MODELS[self.name]
+
+    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+        import httpx
+
+        body = {
+            "model": self.model,
+            "max_tokens": 16000,
+            "messages": [
+                {"role": "system", "content": system},
+                {"role": "user", "content": user},
+            ],
+            "response_format": {
+                "type": "json_schema",
+                "json_schema": {"name": "narration", "strict": True, "schema": schema},
+            },
+        }
+        headers = {
+            "Authorization": f"Bearer {self.key}",
+            "HTTP-Referer": "https://github.com/gamaerry/arena-narrator",
+            "X-Title": "arena-narrator",
+        }
+        r = httpx.post(self.URL, json=body, headers=headers, timeout=900)
+        if r.status_code != 200:
+            raise LLMError(f"OpenRouter HTTP {r.status_code}: {r.text[:500]}")
+        data = r.json()
+        if "error" in data:
+            raise LLMError(f"OpenRouter error: {data['error']}")
+        choice = data["choices"][0]
+        msg = choice.get("message") or {}
+        if msg.get("refusal") or choice.get("finish_reason") in ("refusal", "content_filter"):
+            raise LLMError(f"{self.model} refused the request: {msg.get('refusal') or ''}")
+        text = msg.get("content") or ""
+        try:
+            return _loads(text)
+        except json.JSONDecodeError as e:
+            reason = choice.get("finish_reason")
+            raise LLMError(f"{self.model} did not return JSON ({reason}): {text[:300]}") from e
+
+
 class ClaudeCLI:
     """Uses a local Claude Code install in headless mode (no API key needed)."""
 
@@ -153,6 +204,7 @@ class TemplateLLM:
 PROVIDERS = {
     "anthropic": AnthropicLLM,
     "gemini": GeminiLLM,
+    "openrouter": OpenRouterLLM,
     "claude-cli": ClaudeCLI,
     "none": TemplateLLM,
 }
@@ -162,13 +214,16 @@ def get_llm(provider: str = "auto", model: str | None = None) -> LLM:
     if provider == "auto":
         if os.environ.get("ANTHROPIC_API_KEY"):
             provider = "anthropic"
+        elif os.environ.get("OPENROUTER_API_KEY"):
+            provider = "openrouter"
         elif os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"):
             provider = "gemini"
         elif shutil.which("claude"):
             provider = "claude-cli"
         else:
             raise LLMError(
-                "No LLM available: set ANTHROPIC_API_KEY or GEMINI_API_KEY, install Claude Code "
+                "No LLM available: set ANTHROPIC_API_KEY, OPENROUTER_API_KEY or GEMINI_API_KEY, "
+                "install Claude Code "
                 "(`claude`), or use --provider none for plain offline narration."
             )
     if provider not in PROVIDERS:

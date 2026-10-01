@@ -17,7 +17,7 @@ episode JSON ──► parse + python-chess facts ──► LLM script ──►
 git clone https://github.com/gamaerry/arena-narrator && cd arena-narrator
 uv sync --extra edge --extra anthropic          # or: --extra piper / --extra gemini / --extra all
 
-export ANTHROPIC_API_KEY=...                    # or GEMINI_API_KEY=...
+export ANTHROPIC_API_KEY=...                    # or OPENROUTER_API_KEY / GEMINI_API_KEY
 uv run arena-narrator build 109084577 --lang es --tts edge
 uv run arena-narrator view out/109084577        # browser
 uv run arena-narrator play out/109084577        # terminal
@@ -45,13 +45,13 @@ Main options for `build`:
 | `--tts edge\|piper` | `edge` | Piper voices are downloaded to `~/.cache/arena-narrator/piper` on first use |
 | `--voice` | `es-MX-JorgeNeural` / `en-US-GuyNeural` (edge), `es_MX-ald-medium` / `en_US-lessac-medium` (piper) | any edge-tts voice name, any Piper voice name or a path to an `.onnx` file |
 | `--rate` | — | e.g. `+10%` |
-| `--provider` | `auto` | `anthropic`, `gemini`, `claude-cli` (local Claude Code, no key) or `none` (offline template, no LLM) |
-| `--model` | provider default | e.g. `claude-opus-5-5`, `gemini-flash-latest` |
+| `--provider` | `auto` | `anthropic`, `openrouter` (any model, default `anthropic/claude-opus-5.5`), `gemini`, `claude-cli` (local Claude Code, no key) or `none` (offline template, no LLM) |
+| `--model` | provider default | e.g. `claude-opus-5-5`, `gemini-flash-latest`, `openai/gpt-6.1-sol` (OpenRouter) |
 | `--engine` | — | path to a UCI engine such as Stockfish, which adds evaluations and blunder flags to the facts |
 | `--chunk` | `30` | plies per LLM call; a running summary keeps long games coherent |
 | `--regen` | — | ignore the cached script (scripts and audio clips are cached) |
 
-`auto` picks Anthropic if `ANTHROPIC_API_KEY` is set, then Gemini (`GEMINI_API_KEY` / `GOOGLE_API_KEY`), then a local `claude` CLI.
+`auto` picks Anthropic if `ANTHROPIC_API_KEY` is set, then OpenRouter (`OPENROUTER_API_KEY`), then Gemini (`GEMINI_API_KEY` / `GOOGLE_API_KEY`), then a local `claude` CLI.
 
 ## Output
 
@@ -104,7 +104,7 @@ En Game Arena los modelos juegan sin motor y escriben su razonamiento antes de c
 
 ```bash
 uv sync --extra edge --extra anthropic
-export ANTHROPIC_API_KEY=...        # o GEMINI_API_KEY=...
+export OPENROUTER_API_KEY=...       # o ANTHROPIC_API_KEY / GEMINI_API_KEY
 uv run arena-narrator build "https://www.kaggle.com/game-arena?episodeId=109084577" --lang es --tts piper
 uv run arena-narrator view out/109084577
 uv run arena-narrator play out/109084577 --from-ply 41
