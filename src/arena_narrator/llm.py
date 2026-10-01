@@ -6,13 +6,15 @@ import json
 import os
 import shutil
 import subprocess
+import sys
+import time
 from typing import Protocol
 
 DEFAULT_MODELS = {
     "anthropic": "claude-sonnet-5-5",
     "gemini": "gemini-flash-latest",
     "claude-cli": "sonnet",
-    "openrouter": "anthropic/claude-opus-5.5",
+    "openrouter": "qwen/qwen3.8-27b:free",
 }
 
 
@@ -128,12 +130,13 @@ class OpenRouterLLM:
             "HTTP-Referer": "https://github.com/gamaerry/arena-narrator",
             "X-Title": "arena-narrator",
         }
-        r = httpx.post(self.URL, json=body, headers=headers, timeout=900)
-        if r.status_code != 200:
-            raise LLMError(f"OpenRouter HTTP {r.status_code}: {r.text[:500]}")
-        data = r.json()
+        data = self._post(httpx, body, headers)
+        if "error" in data and "response_format" in str(data["error"]):
+            data = self._post(httpx, self._json_object_body(body, schema), headers)
         if "error" in data:
             raise LLMError(f"OpenRouter error: {data['error']}")
+        if not data.get("choices"):
+            raise LLMError(f"OpenRouter returned no choices: {str(data)[:300]}")
         choice = data["choices"][0]
         msg = choice.get("message") or {}
         if msg.get("refusal") or choice.get("finish_reason") in ("refusal", "content_filter"):
@@ -144,6 +147,33 @@ class OpenRouterLLM:
         except json.JSONDecodeError as e:
             reason = choice.get("finish_reason")
             raise LLMError(f"{self.model} did not return JSON ({reason}): {text[:300]}") from e
+
+
+    def _post(self, httpx, body: dict, headers: dict) -> dict:
+        """POST with backoff on rate limits / transient upstream errors (common on :free)."""
+        for attempt in range(6):
+            r = httpx.post(self.URL, json=body, headers=headers, timeout=900)
+            if r.status_code in (429, 502, 503) and attempt < 5:
+                wait = int(r.headers.get("retry-after") or 0) or 10 * 2**attempt
+                print(f"  OpenRouter {r.status_code}; retrying in {wait}s …", file=sys.stderr)
+                time.sleep(min(wait, 120))
+                continue
+            if r.status_code == 400 and "response_format" in r.text:
+                return {"error": r.text}
+            if r.status_code != 200:
+                raise LLMError(f"OpenRouter HTTP {r.status_code}: {r.text[:500]}")
+            return r.json()
+        raise LLMError("OpenRouter: too many retries")
+
+    @staticmethod
+    def _json_object_body(body: dict, schema: dict) -> dict:
+        """Fallback for models without json_schema support: plain JSON mode + schema in prompt."""
+        msgs = [dict(m) for m in body["messages"]]
+        msgs[0]["content"] += (
+            "\n\nReply with a single JSON object (no prose, no code fences) matching this "
+            f"JSON Schema:\n{json.dumps(schema)}"
+        )
+        return {**body, "messages": msgs, "response_format": {"type": "json_object"}}
 
 
 class ClaudeCLI:

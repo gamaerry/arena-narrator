@@ -45,8 +45,8 @@ Main options for `build`:
 | `--tts edge\|piper` | `edge` | Piper voices are downloaded to `~/.cache/arena-narrator/piper` on first use |
 | `--voice` | `es-MX-JorgeNeural` / `en-US-GuyNeural` (edge), `es_MX-ald-medium` / `en_US-lessac-medium` (piper) | any edge-tts voice name, any Piper voice name or a path to an `.onnx` file |
 | `--rate` | — | e.g. `+10%` |
-| `--provider` | `auto` | `anthropic`, `openrouter` (any model, default `anthropic/claude-opus-5.5`), `gemini`, `claude-cli` (local Claude Code, no key) or `none` (offline template, no LLM) |
-| `--model` | provider default | e.g. `claude-opus-5-5`, `gemini-flash-latest`, `openai/gpt-6.1-sol` (OpenRouter) |
+| `--provider` | `auto` | `anthropic`, `openrouter` (any model; default is the free `qwen/qwen3.8-27b:free`), `gemini`, `claude-cli` (local Claude Code, no key) or `none` (offline template, no LLM) |
+| `--model` | provider default | e.g. `claude-opus-5-5`, `gemini-flash-latest`, `anthropic/claude-opus-5.5` or `openai/gpt-6.1-sol` (OpenRouter, paid) |
 | `--engine` | — | path to a UCI engine such as Stockfish, which adds evaluations and blunder flags to the facts |
 | `--chunk` | `30` | plies per LLM call; a running summary keeps long games coherent |
 | `--regen` | — | ignore the cached script (scripts and audio clips are cached) |
