@@ -145,6 +145,12 @@ def build_prompt(episode: Episode, chunk: list[Move], lang: str, summary: str,
                      "the game showed about how each model reasons.")
     lines.append(f"\nMOVES TO NARRATE (plies {chunk[0].ply}-{chunk[-1].ply} of {total}):\n")
     lines.extend(_move_block(mv, lang) for mv in chunk)
+    lines.append(
+        f"\nREMINDERS: write every sentence of intro/segments/outro in {LANG_NAMES[lang]} only "
+        "(never add an English recap). Do not mention pieces or squares that are not in the "
+        "facts or the game score. If 'pieces left en prise' lists something the model's "
+        "reasoning ignored, say so explicitly."
+    )
     return "\n".join(lines)
 
 

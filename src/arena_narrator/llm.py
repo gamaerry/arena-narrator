@@ -14,7 +14,7 @@ DEFAULT_MODELS = {
     "anthropic": "claude-sonnet-5-5",
     "gemini": "gemini-flash-latest",
     "claude-cli": "sonnet",
-    "openrouter": "qwen/qwen3.8-27b:free",
+    "openrouter": "deepseek/deepseek-v4.1-flash",
 }
 
 
@@ -111,6 +111,17 @@ class OpenRouterLLM:
         self.model = model or DEFAULT_MODELS[self.name]
 
     def complete_json(self, system: str, user: str, schema: dict) -> dict:
+        # Free endpoints sometimes cut the response mid-stream; retry a couple of times.
+        for attempt in range(3):
+            try:
+                return self._complete_once(system, user, schema)
+            except LLMError as e:
+                if "did not return JSON" not in str(e) or attempt == 2:
+                    raise
+                print(f"  truncated/invalid JSON from {self.model}; retrying …", file=sys.stderr)
+        raise AssertionError("unreachable")
+
+    def _complete_once(self, system: str, user: str, schema: dict) -> dict:
         import httpx
 
         body = {
